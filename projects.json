@@ -38,13 +38,13 @@
     {
         "title": "Rubber Bang",
         "description": "Conceptualized and spearheaded the development of an online multiplayer shooting game in collaboration with a teammate. My role encompassed game and level design, balance refinement, and contributing 3D art using Maya 3D. The result? A victorious project, securing us a prestigious prize of Rs. 15,000 in a competition.",
-        "screenshots": ["packages/images/levelarium/lss1.png", "packages/images/levelarium/lss2.png", "packages/images/levelarium/lss3.png", "packages/images/levelarium/lss4.png", "packages/images/levelarium/lss5.png", "packages/images/levelarium/lss6.png", "packages/images/levelarium/lss7.png", "packages/images/levelarium/lss8.png", "packages/images/levelarium/lss9.png", "packages/images/levelarium/lss10.png", "packages/images/levelarium/lss11.png"],
+        "screenshots": ["packages/images/rubberbang/rbss1.png", "packages/images/rubberbang/rbss2.png", "packages/images/rubberbang/rbss3.png", "packages/images/rubberbang/rbss4.png", "packages/images/rubberbang/rbss5.png", "packages/images/rubberbang/rbss6.png"],
         "gameLink": "https://faizalkhan99.itch.io/levelarium"
     },
     {
         "title": "Darren The Thief",
         "description": "Developed a captivating 3D escape game for Windows, immersing players in the intriguing world of an auction house heist. Players assist Darren in executing an audacious fleece. Crafted with Unity and C#. The game features immersive cinematic cutscenes for an engaging storytelling experience.",
-        "screenshots": ["packages/images/levelarium/lss1.png", "packages/images/levelarium/lss2.png", "packages/images/levelarium/lss3.png", "packages/images/levelarium/lss4.png", "packages/images/levelarium/lss5.png", "packages/images/levelarium/lss6.png", "packages/images/levelarium/lss7.png", "packages/images/levelarium/lss8.png", "packages/images/levelarium/lss9.png", "packages/images/levelarium/lss10.png", "packages/images/levelarium/lss11.png"],
+        "screenshots": ["packages/images/dtt/dss8.png", "packages/images/dtt/dss1.png", "packages/images/dtt/dss2.png", "packages/images/dtt/dss3.png", "packages/images/dtt/dss4.png", "packages/images/dtt/dss5.png", "packages/images/dtt/dss6.png", "packages/images/dtt/dss7.png"],
         "gameLink": "https://faizalkhan99.itch.io/levelarium"
     },
     {
@@ -56,19 +56,19 @@
     {
         "title": "Under The Tree",
         "description": "Designed a casual catcher game available on PC, Android, and WebGL platforms. Players engage in a thrilling challenge of catching ripe fruits while skillfully shooting down the rotten ones plummeting from a towering tree. This cross-platform game offers fun and excitement across various devices.",
-        "screenshots": ["packages/images/levelarium/lss1.png", "packages/images/levelarium/lss2.png", "packages/images/levelarium/lss3.png", "packages/images/levelarium/lss4.png", "packages/images/levelarium/lss5.png", "packages/images/levelarium/lss6.png", "packages/images/levelarium/lss7.png", "packages/images/levelarium/lss8.png", "packages/images/levelarium/lss9.png", "packages/images/levelarium/lss10.png", "packages/images/levelarium/lss11.png"],
+        "screenshots": ["packages/images/utt/uss1.png", "packages/images/utt/uss2.png", "packages/images/utt/uss3.png", "packages/images/utt/uss4.png", "packages/images/utt/uss5.png", "packages/images/utt/uss6.png"],
         "gameLink": "https://faizalkhan99.itch.io/levelarium"
     },
     {
         "title": "Ghost Runner",
         "description": "My first game using unity engine. Made back in 2022. A 2D infinite side scroller game where the player is suppose to dodge the evil ghosts towards him and increase the score as much as possible.",
-        "screenshots": ["packages/images/levelarium/lss1.png", "packages/images/levelarium/lss2.png", "packages/images/levelarium/lss3.png", "packages/images/levelarium/lss4.png", "packages/images/levelarium/lss5.png", "packages/images/levelarium/lss6.png", "packages/images/levelarium/lss7.png", "packages/images/levelarium/lss8.png", "packages/images/levelarium/lss9.png", "packages/images/levelarium/lss10.png", "packages/images/levelarium/lss11.png"],
+        "screenshots": ["packages/images/ghostrunner/gss1.png", "packages/images/ghostrunner/gss2.png", "packages/images/ghostrunner/gss3.png", "packages/images/ghostrunner/gss4.png"],
         "gameLink": "https://faizalkhan99.itch.io/levelarium"
     },
     {
         "title": "Space Rocks",
         "description": "The start point of my game design and develop journey. made in GameMakerStusio2. A space 2D shooter for windows platform. Players assume the role of a rocket and shoot the asteroid and enemies tring to kill him, the goal is to kill enough enemies to the target score to win the game.",
-        "screenshots": ["packages/images/levelarium/lss1.png", "packages/images/levelarium/lss2.png", "packages/images/levelarium/lss3.png", "packages/images/levelarium/lss4.png", "packages/images/levelarium/lss5.png", "packages/images/levelarium/lss6.png", "packages/images/levelarium/lss7.png", "packages/images/levelarium/lss8.png", "packages/images/levelarium/lss9.png", "packages/images/levelarium/lss10.png", "packages/images/levelarium/lss11.png"],
+        "screenshots": ["packages/images/spacerocks/srss1.png", "packages/images/spacerocks/srss2.png", "packages/images/spacerocks/srss3.png", "packages/images/spacerocks/srss4.png", "packages/images/spacerocks/srss5.png", "packages/images/spacerocks/srss6.png", "packages/images/spacerocks/srss7.png", "packages/images/spacerocks/srss8.png"],
         "gameLink": "https://faizalkhan99.itch.io/levelarium"
     }
 ]
