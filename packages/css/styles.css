@@ -18,6 +18,7 @@
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
   --body-color: hsl(var(--hue-color), 95%, 95%);
+  --progress-bar-color : hsl(var(--hue-color), 28%, 12%);
   --container-color: #fff;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
@@ -77,6 +78,7 @@ body.dark-theme {
   --text-color-light: hsl(var(--hue-color), 8%, 75%);
   --input-color: hsl(var(--hue-color), 29%, 16%);
   --body-color: hsl(var(--hue-color), 28%, 12%);
+  --progress-bar-color : hsl(var(--hue-color), 95%, 95%);
   --container-color: hsl(var(--hue-color), 29%, 16%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
@@ -1369,4 +1371,59 @@ img {
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+/* PROGRESS BAR */
+#progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  z-index: 1000;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0;
+  background-color: var(--progress-bar-color);
+  transition: width 0.2s ease;
+}
+
+/* HOVER TEXT FOR LINKS */
+.hover-icon {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.hover-icon .hover-text {
+  position: absolute;
+  bottom: 100%; /* Position above the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 7px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.hover-icon:hover .hover-text {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hover-icon i {
+  transition: transform 0.2s;
+}
+
+.hover-icon:hover i {
+  transform: translateY(-10px);
 }

@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="packages/images/favicon.ico">
+    <link rel="icon" href="packages/images/favicon-16x16.png">
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
@@ -67,7 +68,10 @@
             </div>
         </nav>
     </header>
-
+    <!--==================== PROGRESS BAR ====================-->
+    <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
     <!--==================== MAIN ====================-->
     <main class="main">
         <!--==================== HOME ====================-->
@@ -75,13 +79,16 @@
             <div class="home__container container grid">
                 <div class="home__content grid">
                     <div class="home__social">
-                        <a href="https://www.linkedin.com/in/faizalkhan99/" target="_blank" class="home__social-icon">
+                        <a href="https://www.linkedin.com/in/faizalkhan99/" target="_blank" class="hover-icon home__social-icon">
+                            <span class="hover-text">LinkedIn Profile</span>
                             <i class="uil uil-linkedin-alt"></i>
                         </a>
-                        <a href="https://faizalkhan99.itch.io" target="_blank" class="home__social-icon">
+                        <a href="https://faizalkhan99.itch.io" target="_blank" class="hover-icon home__social-icon">
+                            <span class="hover-text">itch.io Page</span>
                             <i class="uil uil-bag-alt"></i>
                         </a>
-                        <a href="https://github.com/faizalkhan99/" target="_blank" class="home__social-icon">
+                        <a href="https://github.com/faizalkhan99/" target="_blank" class="hover-icon home__social-icon">
+                            <span class="hover-text">GitHub Profile</span>
                             <i class="uil uil-github-alt"></i>
                         </a>
                     </div>
@@ -581,7 +588,9 @@
 
                         <div class="portfolio_">
                             <h3 class="portfolio__title">Rocket Boy</h3>
-                            <p style="text-align: justify;" class="portfolio__description">A platformer game made by me and my teammate for Dev's Arena game jam 2023 organised by ACAD & Game Connect. Developed for Windows, MAC & Linux. Made using Unity Engine, C# & Blender</p>
+                            <p style="text-align: justify;" class="portfolio__description">A platformer game made by me
+                                and my teammate for Dev's Arena game jam 2023 organised by ACAD & Game Connect.
+                                Developed for Windows, MAC & Linux. Made using Unity Engine, C# & Blender</p>
                             <a href="pshowcasetemplate.html?project=0"
                                 class="button button--flex button--small portfolio__button">
                                 View Details
@@ -662,7 +671,9 @@
 
                         <div class="portfolio_">
                             <h3 class="portfolio__title">Monophobia - 3D Horror Game</h3>
-                            <p style="text-align: justify;" class="portfolio__description">A 3D horror game developed for a game jam with a teammate in the span of 20 days. Made using Unity Engine, C# & Blender.</p>
+                            <p style="text-align: justify;" class="portfolio__description">A 3D horror game developed
+                                for a game jam with a teammate in the span of 20 days. Made using Unity Engine, C# &
+                                Blender.</p>
                             <a href="pshowcasetemplate.html?project=5"
                                 class="button button--flex button--small portfolio__button">
                                 View Details
@@ -676,7 +687,9 @@
 
                         <div class="portfolio_">
                             <h3 class="portfolio__title">Rubber Bang - Online Multiplayer</h3>
-                            <p style="text-align: justify;" class="portfolio__description">An online multiplayer shooting game develope for a college level competition with a teammate that we won. Made using Unity Engine, C# & Blender.</p>
+                            <p style="text-align: justify;" class="portfolio__description">An online multiplayer
+                                shooting game develope for a college level competition with a teammate that we won. Made
+                                using Unity Engine, C# & Blender.</p>
                             <a href="pshowcasetemplate.html?project=6"
                                 class="button button--flex button--small portfolio__button">
                                 View Details
@@ -777,7 +790,7 @@
             </div>
 
         </section>
-        <!--==================== DOCUMENTATION ====================-->
+        <!--==================== DOCUMENTATIONS ====================-->
         <section class="portfolio section" id="portfolio">
 
             <h2 class="section__title">Work Sample</h2>
@@ -791,12 +804,15 @@
                         <img src="./packages/images/companies/snk.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio_">
-                            <h3 class="portfolio__title">SNK IT Solutions</h3>
-                            <p style="text-align: justify;" class="portfolio__description">This Game design assignment had 2 parts. Part 1 required me to improve one of their game Cooking Carnival and for part 2, I was asked to merge cooking and dress up games to come up with something new.</p>
+                            <h3 class="portfolio__title">SNK IT Solutions - Design Test</h3>
+                            <p style="text-align: justify;" class="portfolio__description">This Game design assignment
+                                had 2 parts. Part 1 required me to improve one of their game Cooking Carnival and for
+                                part 2, I was asked to merge cooking and dress up games to come up with something new.
+                            </p>
                             <a href="packages/docs/gdd/SNK_IT_SOLUTIONS_DT.pdf" target="_blank"
                                 class="button button--flex button--small portfolio__button">
                                 Open Document
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-share button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -807,12 +823,14 @@
                         <img src="./packages/images/companies/bombayPlay.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio_">
-                            <h3 class="portfolio__title">Bombay Play</h3>
-                            <p style="text-align: justify;" class="portfolio__description">A technical test was given to me which required me to find how bots should score in a tournament to keep plyer engaged and not to make the player feel bored or frustrated.</p>
+                            <h3 class="portfolio__title">Bombay Play - Design Test</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A technical test was given to
+                                me which required me to find how bots should score in a tournament to keep plyer engaged
+                                and not to make the player feel bored or frustrated.</p>
                             <a href="packages/docs/gdd/BombayPlay_DT.pdf" target="_blank"
                                 class="button button--flex button--small portfolio__button">
                                 Open Document
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-share button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -823,12 +841,14 @@
                         <img src="./packages/images/companies/playsimplegames.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio_">
-                            <h3 class="portfolio__title">PlaySimple Games</h3>
-                            <p style="text-align: justify;" class="portfolio__description">There were two parts of this assignment. First one required me to deconstruct Royal Match and second one was expecting me to improve the game Word Trip.</p>
+                            <h3 class="portfolio__title">PlaySimple Games - Design Test</h3>
+                            <p style="text-align: justify;" class="portfolio__description">There were two parts of this
+                                assignment. First one required me to deconstruct Royal Match and second one was
+                                expecting me to improve the game Word Trip.</p>
                             <a href="packages/docs/gdd/PlaySimpleGames_DT.pdf" target="_blank"
                                 class="button button--flex button--small portfolio__button">
                                 Open Document
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-share button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -838,12 +858,14 @@
                         <img src="./packages/images/companies/tapnplay.png" alt="" class="portfolio__img">
 
                         <div class="portfolio_">
-                            <h3 class="portfolio__title">Tap N Play</h3>
-                            <p style="text-align: justify;" class="portfolio__description">Some reference games were given to me and I was expected to take one of them as an inspiratin to develop a new and unique concept about a mobile RPG game and make its GDD.</p>
+                            <h3 class="portfolio__title">Tap N Play - Design Test</h3>
+                            <p style="text-align: justify;" class="portfolio__description">Some reference games were
+                                given to me and I was expected to take one of them as an inspiratin to develop a new and
+                                unique concept about a mobile RPG game and make its GDD.</p>
                             <a href="packages/docs/gdd/TapNPlay_DT.pdf" target="_blank"
                                 class="button button--flex button--small portfolio__button">
                                 Open Document
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-share button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -853,12 +875,14 @@
                         <img src="./packages/images/companies/JashEntertainment.webp" alt="" class="portfolio__img">
 
                         <div class="portfolio_">
-                            <h3 class="portfolio__title">Jash Entertainment</h3>
-                            <p style="text-align: justify;" class="portfolio__description">I was tasked with merging the game concept of a game called MISSILES with the core mechanics of another game, COLOR SWITCH.</p> 
+                            <h3 class="portfolio__title">Jash Entertainment - Design Test</h3>
+                            <p style="text-align: justify;" class="portfolio__description">I was tasked with merging the
+                                game concept of a game called MISSILES with the core mechanics of another game, COLOR
+                                SWITCH.</p>
                             <a href="packages/docs/gdd/JashEntertainment_DT.pdf" target="_blank"
                                 class="button button--flex button--small portfolio__button">
                                 Open Document
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-share button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -868,12 +892,15 @@
                         <img src="./packages/images/companies/glance.webp" alt="" class="portfolio__img">
 
                         <div class="portfolio_">
-                            <h3 class="portfolio__title">Glace</h3>
-                            <p style="text-align: justify;" class="portfolio__description">An ongoing client project for Glance involves developing a tower defense multiplayer mobile game. The game is being created by a team of seven people using technologies such as the Unity engine, Blender, C#, Maya3D, Photoshop, and GitHub.</p>
+                            <h3 class="portfolio__title">Glance - GDD</h3>
+                            <p style="text-align: justify;" class="portfolio__description">An ongoing client project for
+                                Glance involves developing a tower defense multiplayer mobile game. The game is being
+                                created by a team of seven people using technologies such as the Unity engine, Blender,
+                                C#, Maya3D, Photoshop, and GitHub.</p>
                             <a href="packages/docs/gdd/GlanceTowerDefence_Docs.pdf" target="_blank"
                                 class="button button--flex button--small portfolio__button">
                                 Open Document
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-share button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -883,12 +910,16 @@
                         <img src="./packages/images/companies/juegostudio.webp" alt="" class="portfolio__img">
 
                         <div class="portfolio_">
-                            <h3 class="portfolio__title">Juego Studio</h3>
-                            <p style="text-align: justify;" class="portfolio__description">I received an assignment that had three parts. In Part A, I had to write the level logic for an infinite runner. In Part B, I had to come up with a unique idea for a hyper-casual game and create a detailed Game Design Document (GDD) for it. In Part C, I had to create a balance sheet for 100 levels of a top-down isometric shooter game.</p>
+                            <h3 class="portfolio__title">Juego Studio - Design Test</h3>
+                            <p style="text-align: justify;" class="portfolio__description">I received an assignment that
+                                had three parts. In Part A, I had to write the level logic for an infinite runner. In
+                                Part B, I had to come up with a unique idea for a hyper-casual game and create a
+                                detailed Game Design Document (GDD) for it. In Part C, I had to create a balance sheet
+                                for 100 levels of a top-down isometric shooter game.</p>
                             <a href="packages/docs/gdd/JuegoStudio_DT_merged.pdf" target="_blank"
                                 class="button button--flex button--small portfolio__button">
                                 Open Document
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-share button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -898,12 +929,17 @@
                         <img src="./packages/images/companies/renderedideas.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio_">
-                            <h3 class="portfolio__title">Rendered Ideas</h3>
-                            <p style="text-align: justify;" class="portfolio__description">I received a game design assignment that had three parts. In Part A, there were logical questions, and I had to identify bugs or errors in the given game and redesign a boss enemy. Part B was technical, where I was asked about the level design and level design principles of several games. In Part C, I was tasked with designing levels and adding new features to the given game.</p>
+                            <h3 class="portfolio__title">Rendered Ideas - Design Test</h3>
+                            <p style="text-align: justify;" class="portfolio__description">I received a game design
+                                assignment that had three parts. In Part A, there were logical questions, and I had to
+                                identify bugs or errors in the given game and redesign a boss enemy. Part B was
+                                technical, where I was asked about the level design and level design principles of
+                                several games. In Part C, I was tasked with designing levels and adding new features to
+                                the given game.</p>
                             <a href="packages/docs/gdd/RenderedIdeas_DT.pdf" target="_blank"
                                 class="button button--flex button--small portfolio__button">
                                 Open Document
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-share button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -913,12 +949,15 @@
                         <img src="./packages/images/rocketboy.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio_">
-                            <h3 class="portfolio__title">Rocket Boy</h3>
-                            <p style="text-align: justify;" class="portfolio__description">Game design document of a platformer game made by me and my teammate for Dev's Arena game jam 2023 organised by ACAD & Game Connect. Developed for Windows, MAC & Linux. Made using Unity Engine, C# & Blender</p>
+                            <h3 class="portfolio__title">Rocket Boy - GDD</h3>
+                            <p style="text-align: justify;" class="portfolio__description">Game design document of a
+                                platformer game made by me and my teammate for Dev's Arena game jam 2023 organised by
+                                ACAD & Game Connect. Developed for Windows, MAC & Linux. Made using Unity Engine, C# &
+                                Blender</p>
                             <a href="packages/docs/gdd/RocketMan_GDD.pdf" target="_blank"
                                 class="button button--flex button--small portfolio__button">
                                 Open Document
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-share button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -928,12 +967,15 @@
                         <img src="./packages/images/rubberbang.png" alt="" class="portfolio__img">
 
                         <div class="portfolio_">
-                            <h3 class="portfolio__title">Rubber Bang</h3>
-                            <p style="text-align: justify;" class="portfolio__description">Game design document of an online multiplayer shooting game developed in which the losing player gets a buff and the winning playr gets a nerf for a college level competition with a teammate that we won. Made using Unity Engine, C# & Blender</p>
+                            <h3 class="portfolio__title">Rubber Bang - GDD</h3>
+                            <p style="text-align: justify;" class="portfolio__description">Game design document of an
+                                online multiplayer shooting game developed in which the losing player gets a buff and
+                                the winning playr gets a nerf for a college level competition with a teammate that we
+                                won. Made using Unity Engine, C# & Blender</p>
                             <a href="packages/docs/gdd/RubberBang_GDD.pdf" target="_blank"
                                 class="button button--flex button--small portfolio__button">
                                 Open Document
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-share button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -943,12 +985,14 @@
                         <img src="./packages/images/monophobia.png" alt="" class="portfolio__img">
 
                         <div class="portfolio_">
-                            <h3 class="portfolio__title">Monophobia</h3>
-                            <p style="text-align: justify;" class="portfolio__description">A 3D horror game developed for a game jam with a teammate in the span of 20 days. Made using Unity Engine, C# & Blender.</p>
+                            <h3 class="portfolio__title">Monophobia - GDD</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A 3D horror game developed
+                                for a game jam with a teammate in the span of 20 days. Made using Unity Engine, C# &
+                                Blender.</p>
                             <a href="packages/docs/gdd/Monophobia_GDD.pdf" target="_blank"
                                 class="button button--flex button--small portfolio__button">
                                 Open Document
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-share button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -958,12 +1002,14 @@
                         <img src="./packages/images/chaoticduo.png" alt="" class="portfolio__img">
 
                         <div class="portfolio_">
-                            <h3 class="portfolio__title">Chaotic Duo</h3>
-                            <p style="text-align: justify;" class="portfolio__description">A car racing game in which cars shoot, jump and throw their opponents off the map. This game is a fight between the cars.</p>
+                            <h3 class="portfolio__title">Chaotic Duo - Concept Doc</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A car racing game in which
+                                cars shoot, jump and throw their opponents off the map. This game is a fight between the
+                                cars.</p>
                             <a href="packages/docs/gdd/ChaoticDuo_ConceptDoc.pdf" target="_blank"
                                 class="button button--flex button--small portfolio__button">
                                 Open Document
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-share button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -973,17 +1019,98 @@
                         <img src="./packages/images/bobtheheader.png" alt="" class="portfolio__img">
 
                         <div class="portfolio_">
-                            <h3 class="portfolio__title">Bob The Header</h3>
-                            <p style="text-align: justify;" class="portfolio__description">A firs person platformer game in which the villian steels his shiny shoes, now the protagonist is trying to get his shoes back.</p>
+                            <h3 class="portfolio__title">Bob The Header - GDD</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A firs person platformer game
+                                in which the villian steels his shiny shoes, now the protagonist is trying to get his
+                                shoes back.</p>
                             <a href="packages/docs/gdd/BobTheHeader_GDD.pdf" target="_blank"
                                 class="button button--flex button--small portfolio__button">
                                 Open Document
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-share button__icon"></i>
                             </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- add arrows-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+
+            </div>
+
+        </section>
+        <!--==================== CERTIFICATIONS ====================-->
+        <section class="portfolio section" id="portfolio">
+
+            <h2 class="section__title">Certifications</h2>
+            <span class="section__subtitle">Certificates Under My Belt</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== Cert. 1 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/docs/certificates/gamedev.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Game Development - Udemy</h3>
+                            <p style="text-align: justify;" class="portfolio__description">An online course on game
+                                developement from start to finish which included programming, animations, pubishing to
+                                google play store and many other concepts of game developement. This course was in
+                                partnership with Unity Engine itself.</p>
+                            <a href="packages/docs/certificates/gamedev.jpg" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Expand
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== Cert. 2 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/docs/certificates/arvr.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">AR/VR Course - BCA [VIPS]</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A offline course of AR/V
+                                technologies offered by the college[VIPS] itself that included AR/VR development using
+                                Unity Engine and C#. Also other programming concepts in general were taught during this
+                                course.</p>
+                            <a href="packages/docs/certificates/arvr.png" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Expand
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== Cert. 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/docs/certificates/webdev.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Full Stack Web Development - Udemy</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A full stack web developement
+                                online course completed during summer vacations of my Bachelor's degree. It included technologies such as html,
+                                css, js, react, node.js, express.js, mongodb, sql, github, hosting etc.</p>
+                            <a href="packages/docs/certificates/webdev.jpg" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Expand
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <!-- add arrows-->
                 <div class="swiper-button-next">
                     <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
@@ -1171,13 +1298,16 @@
                 </ul>
 
                 <div class="footer__socials">
-                    <a href=https://faizalkhan99.itch.io target="_blank" class="footer__social">
+                    <a href=https://faizalkhan99.itch.io target="_blank" class="hover-icon footer__social">
+                        <span class="hover-text">itch.io Page</span>
                         <i class="uil uil-bag-alt"></i>
                     </a>
-                    <a href="https://www.instagram.com/faizalll___/" target="_blank" class="footer__social">
+                    <a href="https://www.instagram.com/faizalll___/" target="_blank" class="hover-icon footer__social">
+                        <span class="hover-text">Instagram Profile</span>
                         <i class="uil uil-instagram"></i>
                     </a>
-                    <a href="https://linkedin.com/in/faizalkhan99/" target="_blank" class="footer__social">
+                    <a href="https://linkedin.com/in/faizalkhan99/" target="_blank" class="hover-icon footer__social">
+                        <span class="hover-text">LinkedIn Profile</span>
                         <i class="uil uil-linkedin-alt"></i>
                     </a>
                 </div>
@@ -1197,4 +1327,5 @@
     <script src="./packages/js/main.js"></script>
     <script src="./packages/js/pshowcase.js"></script>
 </body>
+
 </html>

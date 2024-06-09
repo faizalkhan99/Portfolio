@@ -210,3 +210,12 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+// PROGRESS BAR
+document.addEventListener('scroll', function() {
+  const progressBar = document.getElementById('progress-bar');
+  const totalHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const scrollPosition = window.scrollY;
+  const scrollPercentage = (scrollPosition / totalHeight) * 100;
+  
+  progressBar.style.width = scrollPercentage + '%';
+});
