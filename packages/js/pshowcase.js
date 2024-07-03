@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // Set project title and description
                 document.getElementById('project-title').innerText = project.title;
-                document.getElementById('evideo').setAttribute('src', 'https://www.youtube.com/embed/' + project.embedLink+'?autoplay=1&mute=1');
                 document.getElementById('project-description').innerText = project.description;
 
                 // Set project screenshots
