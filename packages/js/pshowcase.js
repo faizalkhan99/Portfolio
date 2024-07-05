@@ -39,13 +39,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Generate and append the features list
                 if (project.features && project.features.length > 0) {
                     const featuresContainer = document.getElementById('features-container');
-                    const featuresList = generateUnorderedList(project.features[0].split('. ').filter(feature => feature.trim() !== ''));
+                    const featuresList = generateUnorderedList(project.features[0].split('*').filter(feature => feature.trim() !== ''));
                     featuresContainer.appendChild(featuresList);
                     console.log("Features List: " + featuresList);
                 }
                 if (project.responsibilities && project.responsibilities.length > 0) {
                     const resContainer = document.getElementById('responsibilities-container');
-                    const resList = generateUnorderedList(project.responsibilities[0].split('. ').filter(res => res.trim() !== ''));
+                    const resList = generateUnorderedList(project.responsibilities[0].split('*').filter(res => res.trim() !== ''));
                     resContainer.appendChild(resList);
                     console.log("Features List: " + resList);
                 }

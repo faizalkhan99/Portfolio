@@ -1,109 +1,253 @@
 [
     {
         "title": "Rocket Boy",
-        "description": "Rocket Boy is a platformer game about a boy who likes to explore outer space. One day he went too far while exploring and now he is lost. You take up the role of this rocket boy and help him make it back to the space station. Made in Unity Engine using C# for a game jam called Dev's Arena organized by ACAC and Games Connect.",
-        "screenshots": ["packages/images/rocketboy/rSS1.png", "packages/images/rocketboy/rSS2.png", "packages/images/rocketboy/rSS3.png", "packages/images/rocketboy/rSS4.png", "packages/images/rocketboy/rSS5.png", "packages/images/rocketboy/rSS6.png", "packages/images/rocketboy/rSS7.png", "packages/images/rocketboy/rSS8.png", "packages/images/rocketboy/rSS9.png"],
+        "description": "Rocket Boy is a platformer game about a boy who likes to explore outer space. One day he went too far while exploring and now he is lost. You take up the role of this rocket boy and help him make it back to the space station. Made in Unity Engine using C# for a game jam called Dev's Arena organized by ACAD and Games Connect.",
+        "screenshots": [
+            "packages/images/rocketboy/rSS1.png",
+            "packages/images/rocketboy/rSS2.png",
+            "packages/images/rocketboy/rSS3.png",
+            "packages/images/rocketboy/rSS4.png",
+            "packages/images/rocketboy/rSS5.png",
+            "packages/images/rocketboy/rSS6.png",
+            "packages/images/rocketboy/rSS7.png",
+            "packages/images/rocketboy/rSS8.png",
+            "packages/images/rocketboy/rSS9.png"
+        ],
         "gameLink": "https://faizalkhan99.itch.io/rocket-boy",
-        "embedLink":"pJPaoFAEJaY",
-        "features": ["features 1. feature 2. feature 3"],
-        "responsibilities":["r1. r2. r3. r4"]
+        "embedLink": "pJPaoFAEJaY",
+        "features": [
+            "> Simple controls: [ A, D, SPACE ] controls to move left, right and space bar to fly.*> Immersive environment: Experience the cold & dark outer space environment.*> Fuel management: Manage your fuel strategically.*> Find the key to unlock the door to progress."
+        ],
+        "responsibilities": [
+            "> Resposible for coneptulizing and ideation of the game.*> Game and level design."
+        ]
     },
     {
         "title": "Balloony",
         "description": "Balloony is an exhilarating balloon-popping game where you tap your way through colorful balloons and tricky obstacles. With vibrant graphics, catchy music, and addictive gameplay, it's perfect for players of all ages. Crafted with Unity engine and C#. Published on itch.io and play store.",
-        "screenshots": ["packages/images/balloony/ss1.png", "packages/images/balloony/ss2.png", "packages/images/balloony/ss3.png", "packages/images/balloony/ss4.png"],
+        "screenshots": [
+            "packages/images/balloony/ss1.png",
+            "packages/images/balloony/ss2.png",
+            "packages/images/balloony/ss3.png",
+            "packages/images/balloony/ss4.png"
+        ],
         "gameLink": "https://play.google.com/store/apps/details?id=com.ProtonProductions.com.Balloony&hl=en_US",
-        "embedLink":"",
-        "features": ["features 1. feature 2. feature 3."],
-        "responsibilities":["r1. r2. r3. r4"]
+        "embedLink": "",
+        "features": [
+            "Experience the joy of balloon pooping satisfaction.*Captivating graphics.*Two fun and engaging game modes. feature 3."
+        ],
+        "responsibilities": [
+            "Ideation and conceptualization.*Game and level design.*Implementtion from start to finish.*Open & closed testing.*Publishing to playstore"
+        ]
     },
     {
         "title": "Levelarium",
         "description": "Experience a captivating Android adventure crafted with Unity and C#. Engage in strategic gameplay, solve puzzles, and navigate dynamic combat scenarios. With stunning visuals and a compelling narrative, our game offers an immersive experience tailored for Android devices, all in a portrait-oriented format.",
-        "screenshots": ["packages/images/levelarium/lss1.png", "packages/images/levelarium/lss2.png", "packages/images/levelarium/lss3.png", "packages/images/levelarium/lss4.png", "packages/images/levelarium/lss5.png", "packages/images/levelarium/lss6.png", "packages/images/levelarium/lss7.png", "packages/images/levelarium/lss8.png", "packages/images/levelarium/lss9.png", "packages/images/levelarium/lss10.png", "packages/images/levelarium/lss11.png"],
+        "screenshots": [
+            "packages/images/levelarium/lss1.png",
+            "packages/images/levelarium/lss2.png",
+            "packages/images/levelarium/lss3.png",
+            "packages/images/levelarium/lss4.png",
+            "packages/images/levelarium/lss5.png",
+            "packages/images/levelarium/lss6.png",
+            "packages/images/levelarium/lss7.png",
+            "packages/images/levelarium/lss8.png",
+            "packages/images/levelarium/lss9.png",
+            "packages/images/levelarium/lss10.png",
+            "packages/images/levelarium/lss11.png"
+        ],
         "gameLink": "https://faizalkhan99.itch.io/levelarium",
-        "embedLink":"",
-        "features": ["features 1. feature 2. feature 3."],
-        "responsibilities":["r1. r2. r3. r4"]
+        "embedLink": "",
+        "features": [
+            "features 1. feature 2. feature 3.'IN PROGRESS'"
+        ],
+        "responsibilities": [
+            "r1. r2. r3. r4"
+        ]
     },
     {
         "title": "Trash Troopers",
         "description": "A casual android game made while working in Insanity Crew. Players are supposed to catch the trash falling from the buildings and sort it on the basis of wet and dry trash. Responsible for ideation, design, and balancing throughout the development process.",
-        "screenshots": ["packages/images/trashtroopers/ttss1.webp", "packages/images/trashtroopers/ttss2.webp", "packages/images/trashtroopers/ttss3.webp", "packages/images/trashtroopers/ttss4.webp", "packages/images/trashtroopers/ttss5.webp"],
+        "screenshots": [
+            "packages/images/trashtroopers/ttss1.webp",
+            "packages/images/trashtroopers/ttss2.webp",
+            "packages/images/trashtroopers/ttss3.webp",
+            "packages/images/trashtroopers/ttss4.webp",
+            "packages/images/trashtroopers/ttss5.webp"
+        ],
         "gameLink": "https://play.google.com/store/apps/details?id=com.insanitycrewgames.trashtroopers&hl=en_US",
-        "embedLink":"",
-        "features": ["features 1. feature 2. feature 3."],
-        "responsibilities":["r1. r2. r3. r4"]
+        "embedLink": "",
+        "features": [
+            "features 1. feature 2. feature 3.'IN PROGRESS'"
+        ],
+        "responsibilities": [
+            "r1. r2. r3. r4"
+        ]
     },
     {
         "title": "The Language of Love",
         "description": "A short Zelda inspired game made with Unity Engine using C# in 48 hours for IGDC BYOG 2023 game jam while working at Insanity Crew. Responsible for ideation, concept development, level design & some 2D pixel art.",
-        "screenshots": ["packages/images/tlol/tss1.jpg", "packages/images/tlol/tss2.jpg", "packages/images/tlol/tss3.jpg", "packages/images/tlol/tss4.jpg", "packages/images/tlol/tss5.jpg"],
+        "screenshots": [
+            "packages/images/tlol/tss1.jpg",
+            "packages/images/tlol/tss2.jpg",
+            "packages/images/tlol/tss3.jpg",
+            "packages/images/tlol/tss4.jpg",
+            "packages/images/tlol/tss5.jpg"
+        ],
         "gameLink": "https://faizalkhan99.itch.io/the-language-of-love",
-        "embedLink":"",
-        "features": ["features 1. feature 2. feature 3."],
-        "responsibilities":["r1. r2. r3. r4"]
+        "embedLink": "",
+        "features": [
+            "features 1. feature 2. feature 3.'IN PROGRESS'"
+        ],
+        "responsibilities": [
+            "r1. r2. r3. r4"
+        ]
     },
     {
         "title": "Monophobia",
         "description": "Collaboratively conceived and crafted a single-player horror game, taking it from story concept to full development. My role included comprehensive game and level design. Our achievement was recognized when the game was showcased during the NAAC inspection in 2023 at VIPS campus in Delhi, earning accolades.",
-        "screenshots": ["packages/images/monophobia/mss1.png", "packages/images/monophobia/mss2.png", "packages/images/monophobia/mss3.png", "packages/images/monophobia/mss4.png", "packages/images/monophobia/mss5.png", "packages/images/monophobia/mss6.png", "packages/images/monophobia/mss7.png", "packages/images/monophobia/mss8.png", "packages/images/monophobia/mss9.png"],
+        "screenshots": [
+            "packages/images/monophobia/mss1.png",
+            "packages/images/monophobia/mss2.png",
+            "packages/images/monophobia/mss3.png",
+            "packages/images/monophobia/mss4.png",
+            "packages/images/monophobia/mss5.png",
+            "packages/images/monophobia/mss6.png",
+            "packages/images/monophobia/mss7.png",
+            "packages/images/monophobia/mss8.png",
+            "packages/images/monophobia/mss9.png"
+        ],
         "gameLink": "https://faizalkhan99.itch.io/monophobia",
-        "embedLink":"EyVoAOO6Co8",
-        "features": ["features 1. feature 2. feature 3."],
-        "responsibilities":["r1. r2. r3. r4"]
+        "embedLink": "EyVoAOO6Co8",
+        "features": [
+            "features 1. feature 2. feature 3.'IN PROGRESS'"
+        ],
+        "responsibilities": [
+            "r1. r2. r3. r4"
+        ]
     },
     {
         "title": "Rubber Bang",
         "description": "Conceptualized and spearheaded the development of an online multiplayer shooting game in collaboration with a teammate. My role encompassed game and level design, balance refinement, and contributing 3D art using Maya 3D. The result? A victorious project, securing us a prestigious prize of Rs. 15,000 in a competition.",
-        "screenshots": ["packages/images/rubberbang/rbss1.png", "packages/images/rubberbang/rbss2.png", "packages/images/rubberbang/rbss3.png", "packages/images/rubberbang/rbss4.png", "packages/images/rubberbang/rbss5.png", "packages/images/rubberbang/rbss6.png"],
+        "screenshots": [
+            "packages/images/rubberbang/rbss1.png",
+            "packages/images/rubberbang/rbss2.png",
+            "packages/images/rubberbang/rbss3.png",
+            "packages/images/rubberbang/rbss4.png",
+            "packages/images/rubberbang/rbss5.png",
+            "packages/images/rubberbang/rbss6.png"
+        ],
         "gameLink": "https://faizalkhan99.itch.io/rubber-bang",
-        "embedLink":"ul2WQQlikGI",
-        "features": ["features 1. feature 2. feature 3."],
-        "responsibilities":["r1. r2. r3. r4"]
+        "embedLink": "ul2WQQlikGI",
+        "features": [
+            "features 1. feature 2. feature 3.'IN PROGRESS'"
+        ],
+        "responsibilities": [
+            "r1. r2. r3. r4"
+        ]
     },
     {
         "title": "Darren The Thief",
         "description": "Developed a captivating 3D escape game for Windows, immersing players in the intriguing world of an auction house heist. Players assist Darren in executing an audacious fleece. Crafted with Unity and C#. The game features immersive cinematic cutscenes for an engaging storytelling experience.",
-        "screenshots": ["packages/images/dtt/dss8.png", "packages/images/dtt/dss1.png", "packages/images/dtt/dss2.png", "packages/images/dtt/dss3.png", "packages/images/dtt/dss4.png", "packages/images/dtt/dss5.png", "packages/images/dtt/dss6.png", "packages/images/dtt/dss7.png"],
+        "screenshots": [
+            "packages/images/dtt/dss8.png",
+            "packages/images/dtt/dss1.png",
+            "packages/images/dtt/dss2.png",
+            "packages/images/dtt/dss3.png",
+            "packages/images/dtt/dss4.png",
+            "packages/images/dtt/dss5.png",
+            "packages/images/dtt/dss6.png",
+            "packages/images/dtt/dss7.png"
+        ],
         "gameLink": "https://faizalkhan99.itch.io/darren-the-thief",
-        "embedLink":"",
-        "features": ["features 1. feature 2. feature 3."],
-        "responsibilities":["r1. r2. r3. r4"]
+        "embedLink": "",
+        "features": [
+            "features 1. feature 2. feature 3.'IN PROGRESS'"
+        ],
+        "responsibilities": [
+            "r1. r2. r3. r4"
+        ]
     },
     {
         "title": "L.A.M.A. - Gamified Portfolio App",
         "description": "Created an Android app that invites players to embark on a mysterious journey through a dark dungeon to uncover details about its enigmatic creator, including their work, education, and hobbies. This immersive experience combines storytelling and exploration to reveal the creator's intriguing backstory.",
-        "screenshots": ["packages/images/levelarium/lss1.png", "packages/images/levelarium/lss2.png", "packages/images/levelarium/lss3.png", "packages/images/levelarium/lss4.png", "packages/images/levelarium/lss5.png", "packages/images/levelarium/lss6.png", "packages/images/levelarium/lss7.png", "packages/images/levelarium/lss8.png", "packages/images/levelarium/lss9.png", "packages/images/levelarium/lss10.png", "packages/images/levelarium/lss11.png"],
+        "screenshots": [
+            "packages/images/levelarium/lss1.png",
+            "packages/images/levelarium/lss2.png",
+            "packages/images/levelarium/lss3.png",
+            "packages/images/levelarium/lss4.png",
+            "packages/images/levelarium/lss5.png",
+            "packages/images/levelarium/lss6.png",
+            "packages/images/levelarium/lss7.png",
+            "packages/images/levelarium/lss8.png",
+            "packages/images/levelarium/lss9.png",
+            "packages/images/levelarium/lss10.png",
+            "packages/images/levelarium/lss11.png"
+        ],
         "gameLink": "https://faizalkhan99.itch.io/lama",
-        "embedLink":"",
-        "features": ["features 1. feature 2. feature 3."],
-        "responsibilities":["r1. r2. r3. r4"]
+        "embedLink": "",
+        "features": [
+            "features 1. feature 2. feature 3.'IN PROGRESS'"
+        ],
+        "responsibilities": [
+            "r1. r2. r3. r4"
+        ]
     },
     {
         "title": "Under The Tree",
         "description": "Designed a casual catcher game available on PC, Android, and WebGL platforms. Players engage in a thrilling challenge of catching ripe fruits while skillfully shooting down the rotten ones plummeting from a towering tree. This cross-platform game offers fun and excitement across various devices.",
-        "screenshots": ["packages/images/utt/uss1.png", "packages/images/utt/uss2.png", "packages/images/utt/uss3.png", "packages/images/utt/uss4.png", "packages/images/utt/uss5.png", "packages/images/utt/uss6.png"],
+        "screenshots": [
+            "packages/images/utt/uss1.png",
+            "packages/images/utt/uss2.png",
+            "packages/images/utt/uss3.png",
+            "packages/images/utt/uss4.png",
+            "packages/images/utt/uss5.png",
+            "packages/images/utt/uss6.png"
+        ],
         "gameLink": "https://faizalkhan99.itch.io/under-the-tree",
-        "embedLink":"",
-        "features": ["features 1. feature 2. feature 3."]
+        "embedLink": "",
+        "features": [
+            "features 1. feature 2. feature 3.'IN PROGRESS'"
+        ]
     },
     {
         "title": "Ghost Runner",
         "description": "My first game using unity engine. Made back in 2022. A 2D infinite side scroller game where the player is suppose to dodge the evil ghosts towards him and increase the score as much as possible.",
-        "screenshots": ["packages/images/ghostrunner/gss1.png", "packages/images/ghostrunner/gss2.png", "packages/images/ghostrunner/gss3.png", "packages/images/ghostrunner/gss4.png"],
+        "screenshots": [
+            "packages/images/ghostrunner/gss1.png",
+            "packages/images/ghostrunner/gss2.png",
+            "packages/images/ghostrunner/gss3.png",
+            "packages/images/ghostrunner/gss4.png"
+        ],
         "gameLink": "https://faizalkhan99.itch.io/ghost-runner",
-        "embedLink":"lCWacKeAs9o",
-        "features": ["features 1. feature 2. feature 3."],
-        "responsibilities":["r1. r2. r3. r4"]
+        "embedLink": "lCWacKeAs9o",
+        "features": [
+            "features 1. feature 2. feature 3.'IN PROGRESS'"
+        ],
+        "responsibilities": [
+            "r1. r2. r3. r4"
+        ]
     },
     {
         "title": "Space Rocks",
         "description": "The start point of my game design and develop journey. made in GameMakerStusio2. A space 2D shooter for windows platform. Players assume the role of a rocket and shoot the asteroid and enemies tring to kill him, the goal is to kill enough enemies to the target score to win the game.",
-        "screenshots": ["packages/images/spacerocks/srss1.png", "packages/images/spacerocks/srss2.png", "packages/images/spacerocks/srss3.png", "packages/images/spacerocks/srss4.png", "packages/images/spacerocks/srss5.png", "packages/images/spacerocks/srss6.png", "packages/images/spacerocks/srss7.png", "packages/images/spacerocks/srss8.png"],
+        "screenshots": [
+            "packages/images/spacerocks/srss1.png",
+            "packages/images/spacerocks/srss2.png",
+            "packages/images/spacerocks/srss3.png",
+            "packages/images/spacerocks/srss4.png",
+            "packages/images/spacerocks/srss5.png",
+            "packages/images/spacerocks/srss6.png",
+            "packages/images/spacerocks/srss7.png",
+            "packages/images/spacerocks/srss8.png"
+        ],
         "gameLink": "https://faizalkhan99.itch.io/space-rocks",
-        "embedLink":"",
-        "features": ["features 1. feature 2. feature 3."],
-        "responsibilities":["r1. r2. r3. r4"]
+        "embedLink": "",
+        "features": [
+            "features 1. feature 2. feature 3.'IN PROGRESS'"
+        ],
+        "responsibilities": [
+            "r1. r2. r3. r4"
+        ]
     }
 ]

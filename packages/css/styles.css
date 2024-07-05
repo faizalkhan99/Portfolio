@@ -7,7 +7,8 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 230;
+  /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
@@ -18,7 +19,7 @@
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
   --body-color: hsl(var(--hue-color), 95%, 95%);
-  --progress-bar-color : hsl(var(--hue-color), 28%, 12%);
+  --progress-bar-color: hsl(var(--hue-color), 28%, 12%);
   --container-color: #fff;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
@@ -43,7 +44,7 @@
   /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
-  --mb-0-75: 0.5rem;
+  --mb-0-75: 0.75rem;
   --mb-1: 1rem;
   --mb-1-5: 1.5rem;
   --mb-2: 2rem;
@@ -57,7 +58,7 @@
 }
 
 /* Font size for large devices */
-@media screen and (min-width: 968px) {
+@media screen and (min-width: 800px) {
   :root {
     --big-font-size: 3rem;
     --h1-font-size: 2.25rem;
@@ -78,7 +79,7 @@ body.dark-theme {
   --text-color-light: hsl(var(--hue-color), 8%, 100%);
   --input-color: hsl(var(--hue-color), 29%, 16%);
   --body-color: hsl(var(--hue-color), 28%, 12%);
-  --progress-bar-color : hsl(var(--hue-color), 95%, 95%);
+  --progress-bar-color: hsl(var(--hue-color), 95%, 95%);
   --container-color: hsl(var(--hue-color), 29%, 16%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
@@ -150,6 +151,12 @@ img {
 
 .section__title {
   font-size: var(--h1-font-size);
+}
+
+@media screen and(min-width: 320px) and (max-width: 500px) {
+  .edu_title {
+    font-size: 1rem !important;
+  }
 }
 
 .section__subtitle {
@@ -231,6 +238,7 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
+
 .nav__link {
   display: flex;
   flex-direction: column;
@@ -358,6 +366,7 @@ img {
 .home__scroll-arrow {
   font-size: 1.25rem;
 }
+
 /*==================== BUTTONS ====================*/
 
 .button {
@@ -461,7 +470,8 @@ img {
   margin-bottom: var(--mb-2-5);
   cursor: pointer;
 }
-.services__centered__icons{
+
+.services__centered__icons {
   font-size: 10rem;
   text-align: center;
   color: var(--first-color);
@@ -672,9 +682,11 @@ img {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   transition: 0.3s;
 }
-.services__description{
+
+.services__description {
   text-align: left;
 }
+
 .services__content:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -805,8 +817,8 @@ img {
   right: -0.5rem;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: -0.5rem;
+.swiper-container-horizontal>.swiper-pagination-bullets {
+  bottom: -1.75rem;
 }
 
 .swiper-pagination-bullet-active {
@@ -818,15 +830,20 @@ img {
 .swiper-pagination-bullet {
   outline: none;
 }
+
 /* styles.css */
 
 /* Container for the responsive grid */
 .screenshot-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
-  gap: 16px; /* Spacing between grid items */
-  margin-top: 20px; /* Margin from top */
-  justify-content: center; /* Center the grid horizontally */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  /* Responsive columns */
+  gap: 16px;
+  /* Spacing between grid items */
+  margin-top: 20px;
+  /* Margin from top */
+  justify-content: center;
+  /* Center the grid horizontally */
 }
 
 /* Responsive container to maintain aspect ratio */
@@ -834,7 +851,8 @@ img {
   position: relative;
   width: 100%;
   height: 100%;
-  padding-top: 170%; /* This creates a 3:2 aspect ratio. Adjust as needed */
+  padding-top: 170%;
+  /* This creates a 3:2 aspect ratio. Adjust as needed */
 }
 
 /* Style for the image */
@@ -845,18 +863,22 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 8px; /* Optional: Adds rounded corners */
+  border-radius: 8px;
+  /* Optional: Adds rounded corners */
 }
 
 /* Centering buttons */
 .button-container {
   display: flex;
-  justify-content: center; /* Center buttons horizontally */
-  margin-top: 20px; /* Margin from top */
+  justify-content: center;
+  /* Center buttons horizontally */
+  margin-top: 20px;
+  /* Margin from top */
 }
 
 .button-container a {
-  margin: 0 10px; /* Spacing between buttons */
+  margin: 0 10px;
+  /* Spacing between buttons */
   padding: 10px 20px;
   text-align: center;
 }
@@ -1120,6 +1142,7 @@ img {
   .skills__title {
     font-size: var(--normal-font-size);
   }
+
   .qualification__data {
     gap: 0.5rem;
   }
@@ -1128,6 +1151,7 @@ img {
     grid-template-columns: max-content;
     justify-content: center;
   }
+
   .services__modal {
     padding: 0 0.5rem;
   }
@@ -1162,6 +1186,7 @@ img {
   .home__data {
     grid-column: initial;
   }
+
   .home__img {
     order: 1;
     justify-self: center;
@@ -1191,12 +1216,15 @@ img {
     .body {
       margin: 0;
     }
+
     .section {
       padding: 6rem 0 2rem;
     }
+
     .section__subtitle {
       margin-bottom: 4rem;
     }
+
     .header {
       top: 0;
       bottom: initial;
@@ -1212,6 +1240,7 @@ img {
       height: calc(var(--header-height) + 1.5rem);
       column-gap: 1rem;
     }
+
     .nav__icon,
     .nav__close,
     .nav__toggle {
@@ -1226,6 +1255,7 @@ img {
     .nav__menu {
       margin-left: auto;
     }
+
     .change-theme {
       margin: 0;
     }
@@ -1238,33 +1268,43 @@ img {
       padding-top: 5.5rem;
       column-gap: 2rem;
     }
+
     .home__blob {
       width: 270px;
     }
+
     .home__scroll {
       display: block;
     }
+
     .home__scroll-button {
       margin-left: 3rem;
     }
+
     .about__container {
       column-gap: 5rem;
     }
+
     .about__img {
       width: 350px;
     }
+
     .about__description {
       text-align: initial;
     }
+
     .about__info {
       justify-content: space-between;
     }
+
     .about__buttons {
       justify-content: initial;
     }
+
     .qualification__tabs {
       justify-content: center;
     }
+
     .qualification__button {
       margin: 0 var(--mb-1);
     }
@@ -1272,28 +1312,36 @@ img {
     .qualification__sections {
       grid-template-columns: 0.5fr;
     }
+
     .services__container {
       grid-template-columns: repeat(3, 218px);
       justify-content: center;
     }
+
     .services__icon {
       font-size: 2rem;
     }
+
     .services__modal-content {
       width: 450px;
     }
+
     .portfolio__img {
       width: 320px;
     }
+
     .portfolio__content {
       align-items: center;
     }
+
     .project {
       text-align: initial;
     }
+
     .project__bg {
       background: none;
     }
+
     .project__container {
       background-color: var(--first-color-second);
       border-radius: 1rem;
@@ -1301,12 +1349,15 @@ img {
       grid-template-columns: 1fr max-content;
       column-gap: 3rem;
     }
+
     .project__data {
       padding-top: 0.8rem;
     }
+
     .footer__container {
       grid-template-columns: repeat(3, 1fr);
     }
+
     .footer__bg {
       padding: 3rem 0 3.5rem;
     }
@@ -1315,9 +1366,11 @@ img {
       flex-direction: row;
       column-gap: 2rem;
     }
+
     .footer__socials {
       justify-self: flex-end;
     }
+
     .footer__copy {
       margin-top: 4.5rem;
     }
@@ -1335,15 +1388,19 @@ img {
   .footer__container {
     padding: 0;
   }
+
   .home__blob {
     width: 320px;
   }
+
   .home__social {
     transform: translateX(-6rem);
   }
+
   .services__container {
     grid-template-columns: repeat(3, 238px);
   }
+
   .portfolio__content {
     column-gap: 5rem;
   }
@@ -1355,23 +1412,28 @@ img {
   .swiper-portfolio-icon {
     font-size: 3.5rem;
   }
+
   .swiper-button-prev {
     left: -3.5rem;
   }
+
   .swiper-button-next {
     right: -3.5rem;
   }
-  .swiper-container-horizontal > .swiper-pagination-bullets {
+
+  .swiper-container-horizontal>.swiper-pagination-bullets {
     bottom: -4.5rem;
   }
 
   .contact__form {
     width: 460px;
   }
+
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 /* PROGRESS BAR */
 #progress-container {
   position: fixed;
@@ -1401,7 +1463,8 @@ img {
 
 .hover-icon .hover-text {
   position: absolute;
-  bottom: 100%; /* Position above the icon */
+  bottom: 100%;
+  /* Position above the icon */
   left: 50%;
   transform: translateX(-50%);
   background-color: var(--first-color);
@@ -1426,4 +1489,9 @@ img {
 
 .hover-icon:hover i {
   transform: translateY(-10px);
+}
+
+.company_logo {
+  width: 200px;
+  height: 200px;
 }
