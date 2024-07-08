@@ -13,7 +13,7 @@
 
 @media screen and (orientation: portrait){
     .image-container{
-        background-image: url('/Portfolio/packages/images/mobileBG.png');
+        background-image: url('https://raw.githubusercontent.com/faizalkhan99/Portfolio/main/packages/images/mobileBG.png');
         width: 100%;
         height: 100%;
     }
