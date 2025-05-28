@@ -23,7 +23,6 @@
             "> Resposible for coneptulizing and ideation of the game.*> Game and level design."
         ]
     },
-
     {
         "title": "Balloony",
         "subtitle": "Balloon popping game made for kids.",
@@ -43,7 +42,6 @@
             "Ideation and conceptualization.*Game and level design.*Implementtion from start to finish.*Open & closed testing.*Publishing to playstore"
         ]
     },
-
     {
         "title": "Levelarium",
         "subtitle": "An isometric robo adventure.",
@@ -70,7 +68,6 @@
             "r1. r2. r3. r4"
         ]
     },
-
     {
         "title": "Trash Troopers",
         "subtitle": "An educational game for android.",
@@ -91,7 +88,6 @@
             "r1. r2. r3. r4"
         ]
     },
-
     {
         "title": "The Language of Love",
         "subtitle": "A game jam game made in 24 hours.",
@@ -112,7 +108,6 @@
             "r1. r2. r3. r4"
         ]
     },
-
     {
         "title": "Monophobia",
         "subtitle": "WebGl horror game for PC.",
@@ -137,7 +132,6 @@
             "r1. r2. r3. r4"
         ]
     },
-
     {
         "title": "Rubber Bang",
         "subtitle": "An online multiplayer game for PC.",
@@ -159,7 +153,6 @@
             "r1. r2. r3. r4"
         ]
     },
-
     {
         "title": "Darren The Thief",
         "subtitle": "Helpt Darrent carry out the greatest fleece.",
@@ -183,7 +176,6 @@
             "r1. r2. r3. r4"
         ]
     },
-
     {
         "title": "L.A.M.A. - Gamified Portfolio App",
         "subtitle": "Learm About Me App.",
@@ -210,7 +202,6 @@
             "r1. r2. r3. r4"
         ]
     },
-
     {
         "title": "Under The Tree",
         "subtitle": "Cross platform game for windows & android.",
@@ -229,7 +220,6 @@
             "features 1. feature 2. feature 3.'IN PROGRESS'"
         ]
     },
-
     {
         "title": "Ghost Runner",
         "subtitle": "webGl game published on itch.io.",
@@ -249,7 +239,6 @@
             "r1. r2. r3. r4"
         ]
     },
-
     {
         "title": "Space Rocks",
         "subtitle": "Windowed Game for PC.",
@@ -273,11 +262,10 @@
             "r1. r2. r3. r4"
         ]
     },
-    
     {
         "title": "Popeye the Slasher Man",
         "subtitle": "Bizarre Tales : Chapter 1 : Episode 1",
-        "description": "Popeye the Slasher Man is the first chapter from Bizarre Tales which brings back the childhood character Popeye to life again but with a major twist that he now has gone mad and wants to kill anyone who tries to steal his spinach.",
+        "description": "Bizarre Tales, a first person horror game which features Popeye the Slasher Man in the first chapter. It brings back the childhood character Popeye infront of player to life again but with a major twist that he now has gone mad, have become bizarre in nature and wants to kill anyone who tries to steal his spinach using generative AI.",
         "screenshots": [
             "packages/images/bizarretales/AbandonedHouse.png",
             "packages/images/bizarretales/Bootiful_Water.png",
@@ -286,21 +274,21 @@
             "packages/images/bizarretales/Graveyard_2.png",
             "packages/images/bizarretales/inhouse.jpg",
             "packages/images/bizarretales/PopeyeHDRP.jpg",
-            "packages/images/bizarretales/dock.png"
+            "packages/images/bizarretales/dock.png",
+            "packages/images/bizarretales/comingsoon.png"
         ],
         "gameLink": "",
         "embedLink": "wmaQR4bZkL8",
         "features": [
-            "> Simple controls: [ A, D, SPACE ] controls to move left, right and space bar to fly.*> Immersive environment: Experience the cold & dark outer space environment.*> Fuel management: Manage your fuel strategically.*> Find the key to unlock the door to progress."
+            "> Gen AI Popeye scares the player using unpredictable generative behavior.*> Bizarre level design and surreal art style.*> First-person horror gameplay.*> Features Popeye — nostalgic, but twisted beyond recognition.*> VHS-style visuals and found footage aesthetic.*> Terrifying melee combat.*> Creepy lore delivered through scattered notes and environmental storytelling.*> Puzzles with logical lock/key dependencies — no soft locks.*> Reality-breaking mind bending level design & transitions.*> Enemies inspired by mutated childhood icons."
         ],
         "responsibilities": [
-            "> Resposible for coneptulizing and ideation of the game.*> Game and level design."
+            "> Resposible for coneptulizing and ideation of the game mechincs.*> Level design & implementation.*> Lighting and post processing.*> Learn and use custom tools form made by senior programmer.*> Setting up & arranging the jumpscares in the levels using custom tools.*> World building.*> Ambience & Sound design."
         ]
     },
-
     {
         "title": "Realistic Lighting",
-        "subtitle": "Made for industrial VR solutions.",
+        "subtitle": "Made in Unity Engine for an industrial VR solution.",
         "description": "These renders were made in Uniity Engine HDRP for a real estate VR solutions in which a house can be experienced just via wearing the headset, before the property is even built. ",
         "screenshots": [
             "packages/images/realrenders/RENDER_1.png",
@@ -315,10 +303,35 @@
         "gameLink": "",
         "embedLink": "",
         "features": [
-            "> Simple controls: [ A, D, SPACE ] controls to move left, right and space bar to fly.*> Immersive environment: Experience the cold & dark outer space environment.*> Fuel management: Manage your fuel strategically.*> Find the key to unlock the door to progress."
+            "> Experiemce the street & front facade of your future home before buying and even before it is built.*>see and examine the floor plans from a wide variety to choose your real estate according to your liking.*>Roam around in the interior to feel the future vibe."
         ],
         "responsibilities": [
-            "> Resposible for coneptulizing and ideation of the game.*> Game and level design."
+            "> Coneptulizing and ideation of the environment.*> Integrating assest into the engine.*>Handling textures & materials.*>Post processsing & lighting.*>Overall look 'n feel.*> Making cutscenes for promotional purposes."
+        ]
+    },
+    {
+        "title": "Secluded Countryside Farmstead",
+        "subtitle": "Made in Unity HDRP.",
+        "description": "A peaceful countryside homestead nestled between dense jungle and towering mountain rocks. At its heart stands a rustic house surrounded by a working farm, a calm pond, and a fenced area for animals. A weathered well sits quietly in the backyard, adding to the rural charm. Not far beyond, the sea stretches into the horizon, completing this tranquil and self-sustained slice of nature.",
+        "screenshots": [
+            "packages/images/renders/angle_1.png",
+            "packages/images/renders/angle_2.png",
+            "packages/images/renders/angle_3_a.png",
+            "packages/images/renders/angle_3_b.png",
+            "packages/images/renders/angle_4.png",
+            "packages/images/renders/angle_5.png",
+            "packages/images/renders/angle_6.png",
+            "packages/images/renders/angle_7.png",
+            "packages/images/renders/angle_9.png",
+            "packages/images/renders/angle_10.png"
+        ],
+        "gameLink": "",
+        "embedLink": "_4VUmyXebxY",
+        "features": [
+            ">🌳 Dense Jungle with Whispering Grass.*A thick, immersive jungle encircles the homestead, filled with swaying tall grass that brushes against the player, hinting at secrets lurking within.*>🌞 Magical Sun Shafts & Tyndall Effect*Sunlight streams through the canopy in radiant beams, scattering through the fog and leaves—nature’s own spotlight show in motion.*>🌫️ Spooky Jungle Fog & Ambient Contrast*Cold, ghostly mist settles inside the jungle, giving it an eerie, otherworldly atmosphere. Step into the farm and feel the world warm up with a sunlit glow—like walking between two realms.*>🐺 Free-Roaming Pet Wolf*Within the fenced area, a majestic wolf roams—running, walking, and playing freely. Though untouchable, its presence breathes life and soul into the scene.*>🏡 Seamless Blend of Isolation and Serenity*Nestled between jungle, mountain, and sea, the homestead balances raw wilderness with calm rural charm—creating a vivid, cinematic world that feels both alive and untouched."
+        ],
+        "responsibilities": [
+            "> Resposible for coneptulizing and ideation of the environment.*> Terrain building.*>Terrain Painting.*>Environmetn Design & Implementation.*>Lighting & post processing."
         ]
     }
 ]

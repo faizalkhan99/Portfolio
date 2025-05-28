@@ -13,16 +13,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Set project title and description
                 document.getElementById('project-title').innerText = currentProject.title;
                 document.getElementById('project-subtitle').innerText = currentProject.subtitle;
-                
-                if(currentProject.embedLink === ""){
+
+                if (currentProject.embedLink === "") {
                     const vid = document.getElementById('showhide');
                     vid.style.display = "none";
                 }
-                else{    
+                else {
                     document.getElementById('evideo').setAttribute('src', 'https://www.youtube.com/embed/' + currentProject.embedLink + '?autoplay=1&mute=1');
                 }
-                    
-                
+
+
                 document.getElementById('project-description').innerText = currentProject.description;
                 console.log('Project data: ', currentProject);
                 // Set project screenshots
@@ -44,7 +44,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // Set game link
                 const gameLink = document.getElementById('game-link');
-                gameLink.href = currentProject.gameLink;
+                if (currentProject.gameLink && currentProject.gameLink.trim() !== "") {
+                    gameLink.href = currentProject.gameLink;
+                    gameLink.style.display = 'inline-block'; // or 'flex' depending on your layout
+                } else {
+                    gameLink.style.display = 'none'; // redundant but safe fallback
+                }
 
                 // Generate and append the features list
                 if (currentProject.features && currentProject.features.length > 0) {
