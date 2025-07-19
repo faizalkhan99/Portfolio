@@ -52,18 +52,55 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
 
                 // Generate and append the features list
+                // if (currentProject.features && currentProject.features.length > 0) {
+                //     const featuresContainer = document.getElementById('features-container');
+                //     const featuresList = generateUnorderedList(currentProject.features[0].split('*').filter(feature => feature.trim() !== ''));
+                //     featuresContainer.appendChild(featuresList);
+                //     console.log("Features List: " + featuresList);
+                // }
+
                 if (currentProject.features && currentProject.features.length > 0) {
                     const featuresContainer = document.getElementById('features-container');
-                    const featuresList = generateUnorderedList(currentProject.features[0].split('*').filter(feature => feature.trim() !== ''));
-                    featuresContainer.appendChild(featuresList);
-                    console.log("Features List: " + featuresList);
+                    const rawFeatures = currentProject.features[0]
+                        .split('*')
+                        .filter(feature => feature.trim() !== '');
+
+                    const ul = document.createElement('ul');
+                    rawFeatures.forEach(feature => {
+                        const li = document.createElement('li');
+                        li.innerHTML = `<i class="uil uil-arrow-circle-right" style="color: var(--first-color);"></i>&nbsp;${feature.trim()}`;
+                        ul.appendChild(li);
+                    });
+
+                    featuresContainer.appendChild(ul);
                 }
+
+
+
+                // if (currentProject.responsibilities && currentProject.responsibilities.length > 0) {
+                //     const resContainer = document.getElementById('responsibilities-container');
+                //     const resList = generateUnorderedList(currentProject.responsibilities[0].split('*').filter(res => res.trim() !== ''));
+                //     resContainer.appendChild(resList);
+                // }
+
                 if (currentProject.responsibilities && currentProject.responsibilities.length > 0) {
                     const resContainer = document.getElementById('responsibilities-container');
-                    const resList = generateUnorderedList(currentProject.responsibilities[0].split('*').filter(res => res.trim() !== ''));
-                    resContainer.appendChild(resList);
-                    console.log("Features List: " + resList);
+                    const rawResponsibilities = currentProject.responsibilities[0]
+                        .split('*')
+                        .filter(res => res.trim() !== '');
+
+                    const ul = document.createElement('ul');
+                    rawResponsibilities.forEach(res => {
+                        const li = document.createElement('li');
+                        li.innerHTML = `<i class="uil uil-arrow-circle-right" style="color: var(--first-color);"></i>&nbsp;${res.trim()}`;
+                        ul.appendChild(li);
+                    });
+
+                    resContainer.appendChild(ul);
                 }
+
+
+
 
             } else {
                 document.getElementById('project-title').innerText = "Project Not Found";
