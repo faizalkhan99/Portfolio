@@ -25,13 +25,18 @@
     },
     {
         "title": "Balloony",
-        "subtitle": "Balloon popping game made for kids.",
+        "subtitle": "A satisfying game about balloon popping.",
         "description": "Balloony is an exhilarating balloon-popping game where you tap your way through colorful balloons and tricky obstacles. With vibrant graphics, catchy music, and addictive gameplay, it's perfect for players of all ages. Crafted with Unity engine and C#. Published on itch.io and play store.",
         "screenshots": [
-            "packages/images/balloony/ss1.png",
+            "packages/images/balloony/ss1.jpg",
             "packages/images/balloony/ss2.png",
             "packages/images/balloony/ss3.png",
-            "packages/images/balloony/ss4.png"
+            "packages/images/balloony/ss4.png",
+            "packages/images/balloony/ss5.png",
+            "packages/images/balloony/ss6.jpg",
+            "packages/images/balloony/ss7.jpg",
+            "packages/images/balloony/ss8.jpg",
+            "packages/images/balloony/ss9.jpg"
         ],
         "gameLink": "https://play.google.com/store/apps/details?id=com.ProtonProductions.com.Balloony&hl=en_US",
         "embedLink": "",
@@ -196,7 +201,7 @@
         "gameLink": "https://faizalkhan99.itch.io/lama",
         "embedLink": "",
         "features": [
-            "features 1. feature 2. feature 3.'IN PROGRESS'"
+            "Beautiful 2D pixel art.*feature 2. feature 3.'IN PROGRESS'"
         ],
         "responsibilities": [
             "r1. r2. r3. r4"
