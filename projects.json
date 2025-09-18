@@ -359,5 +359,73 @@
         "responsibilities": [
             "Conceptualizing the whole environment and the mood of the level.*Making of the level using Unity's 2D tilemap system.*Making my own fast travel and lock 'n key system .*Playtesting."
         ]
+    },
+    {
+        "title": "Balloon of the Living Dead",
+        "subtitle": "A rail gun shooter game",
+        "description": "Dive into a relentless arcade rail-shooter where survival means aiming for the grotesque. The infected are covered in disgusting, bubbling cysts, and your trusty shotgun is the only cure. Inspired by the frantic action of House of the Dead, your reflexes are all that stand between you and the horde.This game was made for a game jam and in collaboration with NoBro Studio.",
+        "screenshots": [
+            "packages/images/news_flash/botld/ss1.png",
+            "packages/images/news_flash/botld/ss2.png",
+            "packages/images/news_flash/botld/ss3.png",
+            "packages/images/news_flash/botld/ss4.png",
+            "packages/images/news_flash/botld/ss5.png",
+            "packages/images/news_flash/botld/ss6.png"
+        ],
+        "gameLink": "https://no-bs.itch.io/balloon-of-the-living-dead",
+        "embedLink": "rG0LMhrUhlY",
+        "features": [
+            "Classic Rails Shotgun Action.*Satisfying Popping Zombie Takedowns.*Arcade-Style Horror.*Aim for the High Score!"
+        ],
+        "responsibilities": [
+            "Conceptualizing the environment and the mood of the levels.*Level design in Unity engine.*Gameplay Integration."
+        ]
+    },
+    {
+        "sno": "17",
+        "title": "Risky Bisky",
+        "subtitle": "A horror game that makes the use of lidar scanner mechanic",
+        "description": "You were never allowed sweets. Grandma said sugar would ruin you. But her cookie box was always waiting. The night you opened it, the world changed. In the dark, you cannot see — only listen. Each biscuit you eat cracks the silence, sending echoes through the room, revealing what hides between the walls. Others have walked this path before. Their notes remain, scattered like crumbs, telling of a presence that stirs with every bite. At first it only watches. Then it wanders. Then it follows. And then it hunts. The truth is baked into every crumb. Will you keep eating?",
+        "screenshots": [
+            "packages/images/news_flash/riskybisky/ss1.png",
+            "packages/images/news_flash/riskybisky/ss2.png",
+            "packages/images/news_flash/riskybisky/ss3.png",
+            "packages/images/news_flash/riskybisky/ss4.png",
+            "packages/images/news_flash/riskybisky/ss5.png",
+            "packages/images/news_flash/riskybisky/ss6.png"
+        ],
+        "gameLink": "https://no-bs.itch.io/risky-bisky",
+        "embedLink": "",
+        "features": [
+            "You're blind.*Look for cookes to eat.*Scan the environment by eating cookies.*Lidar scanner to reveal environment.*The cookie monster gets nearer with every crunch."
+        ],
+        "responsibilities": [
+            "Game & Level design in Unity engine.*Contribution in sound design.*Gameplay Integration."
+        ]
+    },
+    {
+        "sno": "18",
+        "title": "Silent Evil",
+        "subtitle": "A horror puzzle game for mobile devices. Made in Unity Engine",
+        "description": "Step into the darkness in Silent Evil, a terrifying horror stealth game where survival is the only option. Trapped in haunted corridors crawling with monsters, every step you take could be your last. Can you escape the nightmare before the Silent Evil consumes you?",
+
+        "screenshots": [
+            "packages/images/news_flash/silentevil/ss1.png",
+            "packages/images/news_flash/silentevil/ss2.png",
+            "packages/images/news_flash/silentevil/ss3.png",
+            "packages/images/news_flash/silentevil/ss4.png",
+            "packages/images/news_flash/silentevil/ss5.png",
+            "packages/images/news_flash/silentevil/ss6.png",
+            "packages/images/news_flash/silentevil/ss7.png",
+            "packages/images/news_flash/silentevil/ss8.png"
+        ],
+        "gameLink": "https://play.google.com/store/apps/details?id=com.NoBS.SilentEvil&hl=en_US",
+        "embedLink": "",
+        "features": [
+            "Face Multiple Monsters – Each creature hunts you in its own terrifying way.*Find Keys and Escape – Unlock doors and uncover the secrets hidden in the dark.*Use Items to Survive – Bandages, lights, and tools can be the difference between life and death.*Explore Exciting Levels – Creepy rooms, haunted halls, and dangerous areas to explore.*Horrifying Scary Style – Dark visuals and chilling sound design for true fear.*Stay Away from the Spider Woman – She hears everything… don’t let her catch you.*Fight Deadly Monsters with Weapons – Defend yourself when stealth isn’t enough.*Survive the Silent Evil – Outsmart, outlast, and escape the nightmare."
+        ],
+        "responsibilities": [
+            "Game design.*Level design in Unity engine.*Gameplay Integration."
+        ]
     }
 ]
