@@ -452,8 +452,8 @@
     {
         "sno": "19",
         "title": "Rolly Polly",
-        "subtitle": "A car that rolls? I wonder what's that about. Made in Unity Engine",
-        "description": "Step into the grid as a unique 2x1 Rolling Cuboid in this frantic puzzle-action game, developed entirely during the [Name of Game Jam]! Navigate challenging levels while being relentlessly pursued by persistent phantom enemies. You can't destroy them, but you can outsmart them with your special ability: the SLAM. When upright, charge your power – watch the cuboid glow from white to an intense red – then unleash a devastating ground pound in your chosen direction to stun nearby foes. Master the distinctive rolling movement, carefully manage enemy encounters using the stun mechanic, collect all the scattered coins to activate the escape gate, and make your way to victory. Strategic timing, spatial awareness, and quick reflexes are key to survival!",
+        "subtitle": "A box that rolls? I wonder what's that about. Made in Unity Engine",
+        "description": "Step into the grid as a unique 2x1 Rolling Cuboid in this frantic puzzle-action game, developed entirely during the BYOG 2025! Navigate challenging levels while being relentlessly pursued by persistent phantom enemies. You can't destroy them, but you can outsmart them with your special ability: the SLAM. When upright, charge your power – watch the cuboid glow from white to an intense red – then unleash a devastating ground pound in your chosen direction to stun nearby foes. Master the distinctive rolling movement, carefully manage enemy encounters using the stun mechanic, collect all the scattered coins to activate the escape gate, and make your way to victory. Strategic timing, spatial awareness, and quick reflexes are key to survival!",
 
         "screenshots": [
             "packages/images/news_flash/rollypolly/ss1.png",
@@ -463,12 +463,35 @@
             "packages/images/comingsoon.png"
         ],
         "gameLink": "https://faizalkhan99.itch.io/rolly-polly",
-        "embedLink": "",
+        "embedLink": "eW4CBa0R3XI",
         "features": [
-            "Unique Rolling Cuboid Mechanics: Control a 2x1 block with distinct grid-based rolling movement, requiring careful planning.*Chargeable Slam Attack: Unleash a powerful, directional ground slam when upright to stun enemies, adding a strategic layer to combat and traversal. Visual glow feedback indicates charge level (White -> Red).*Persistent Enemies: Face three types of phantom enemies (Slow/High Damage, Moderate/Moderate Damage, Fast/Low Damage) that relentlessly chase the player. Enemies are stunned, not destroyed, creating ongoing spatial puzzles.*A Grid-Based Pathfinding: Custom-built A star algorithm guides enemies intelligently towards the player on the game grid, adapting to obstacles.*Stun System: Temporarily disable enemies by slamming them or letting them collide with you, creating openings to navigate or collect items. Includes visual 'seeing stars' VFX.*Coin Collection Objective: Gather all coins scattered throughout the level to activate the final escape gate.*Player Health & Damage System: Manage player health against enemy collisions, with visual feedback (red flash, particle effects) and brief invincibility after taking damage.*Impact Feedback: Enhanced game feel through camera shake and brief screen freezes upon taking damage or successfully slamming.*Teleportation System: Utilize paired teleporters to instantly traverse sections of the level.*Clear UI & Feedback: Includes heads-up display for coin count and player health, indicators for illegal moves, and contextual tutorial triggers.*Game Jam Development: Conceived and built entirely within the [e.g., 72]-hour timeframe of the [Name of Game Jam]."
+            "Unique Rolling Cuboid Mechanics: Control a 2x1 block with distinct grid-based rolling movement, requiring careful planning.*Chargeable Slam Attack: Unleash a powerful, directional ground slam when upright to stun enemies, adding a strategic layer to combat and traversal. Visual glow feedback indicates charge level (White -> Red).*Persistent Enemies: Face three types of phantom enemies (Slow/High Damage, Moderate/Moderate Damage, Fast/Low Damage) that relentlessly chase the player. Enemies are stunned, not destroyed, creating ongoing spatial puzzles.*A Grid-Based Pathfinding: Custom-built A star algorithm guides enemies intelligently towards the player on the game grid, adapting to obstacles.*Stun System: Temporarily disable enemies by slamming them or letting them collide with you, creating openings to navigate or collect items. Includes visual 'seeing stars' VFX.*Coin Collection Objective: Gather all coins scattered throughout the level to activate the final escape gate.*Player Health & Damage System: Manage player health against enemy collisions, with visual feedback (red flash, particle effects) and brief invincibility after taking damage.*Impact Feedback: Enhanced game feel through camera shake and brief screen freezes upon taking damage or successfully slamming.*Teleportation System: Utilize paired teleporters to instantly traverse sections of the level.*Clear UI & Feedback: Includes heads-up display for coin count and player health, indicators for illegal moves, and contextual tutorial triggers.*Game Jam Development: Conceived and built entirely within the 72-hour timeframe of the BYOG 2025."
         ],
         "responsibilities": [
             "As the sole creator of this project during the game jam, I was responsible for all aspects of its development.*Game Designer: Conceptualized the core mechanics (rolling cuboid, slam attack, persistent enemies), designed the gameplay loop, and balanced enemy stats and player abilities.*Programmer: Implemented all game logic and systems in C# using Unity, including player controls, A* pathfinding, enemy AI, health/damage/stun systems, UI management, VFX triggers, and interaction mechanics (coins, teleporters, win gate).*Level Designer: Created the game environment, placed obstacles, coins, enemies, and triggers to craft the player experience and difficulty curve.*UI/UX Designer: Designed and implemented the user interface elements (HUD for health/coins, indicators, tutorial text, pause/win/death screens).*VFX/Technical Artist (Basic): Implemented particle effects for gameplay feedback (slam, stun, damage) and managed material properties for visual effects (glow)."
+        ]
+    },
+    {
+        "sno": "20",
+        "title": "Blox: Stacking Game",
+        "subtitle": "A mix of timing and precision. Made in Unity Engine",
+        "description": "Blox delivers a skill-driven twist on classic block stacking with realistic swinging physics and precise timing. Each block carries weight and momentum, challenging you to read its arc, release at the perfect moment, and align it cleanly on the tower below. Every placement feels deliberate, and every mistake is earned. Chain perfect drops to build combos, score big, and unlock a growth mechanic that restores block size for skilled play. As your tower rises, soothing color gradients and polished visual effects evolve with your progress. With simple one-tap controls, endless gameplay, physics-based mechanics, and global leaderboards, Blox challenges you to stack higher, play cleaner, and prove your mastery.",
+
+        "screenshots": [
+            "packages/images/blox/1.png",
+            "packages/images/blox/2.png",
+            "packages/images/blox/3.png",
+            "packages/images/blox/4.png",
+            "packages/images/blox/5.png",
+            "packages/images/blox/6.png"
+        ],
+        "gameLink": "https://play.google.com/store/apps/details?id=com.Web3Task.Blox",
+        "embedLink": "",
+        "features": [
+            "Simple one-tap controls make the game easy to play and challenging to master.*Physics-based block stacking uses realistic swing, weight, and momentum.*Relaxing yet skill-based gameplay rewards focus, timing, and precision.*Combo and high-score system rewards perfect drops with massive points.*Endless gameplay lets you stack higher with no level limits.*Beautiful and soothing visuals feature smooth color gradients and glowing effects.*Satisfying particle and impact effects make every perfect drop feel rewarding.*Global leaderboards let you compete with players around the world.*Free-to-play version includes ads for uninterrupted access to gameplay.*Premium no-ads version removes ads for a clean and focused experience."
+        ],
+        "responsibilities": [
+            "Designed and implemented core gameplay mechanics focused on timing, precision, and skill-based player mastery.* Implemented physics-based interactions and tuned moment-to-moment game feel in Unity.* Built and balanced core gameplay loops, combo systems, and scoring progression.* Tuned difficulty curves and risk–reward systems through iterative playtesting.* Defined player feedback systems including visual effects, impact timing, and responsiveness.* Developed endless progression systems aimed at retention and replayability.* Integrated meta systems such as monetization, leaderboards, and performance optimization."
         ]
     }
 ]
