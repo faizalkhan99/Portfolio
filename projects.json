@@ -429,7 +429,6 @@
         "title": "Silent Evil",
         "subtitle": "A horror puzzle game for mobile devices. Made in Unity Engine",
         "description": "Step into the darkness in Silent Evil, a terrifying horror stealth game where survival is the only option. Trapped in haunted corridors crawling with monsters, every step you take could be your last. Can you escape the nightmare before the Silent Evil consumes you?",
-
         "screenshots": [
             "packages/images/news_flash/silentevil/ss1.png",
             "packages/images/news_flash/silentevil/ss2.png",
@@ -454,7 +453,6 @@
         "title": "Rolly Polly",
         "subtitle": "A box that rolls? I wonder what's that about. Made in Unity Engine",
         "description": "Step into the grid as a unique 2x1 Rolling Cuboid in this frantic puzzle-action game, developed entirely during the BYOG 2025! Navigate challenging levels while being relentlessly pursued by persistent phantom enemies. You can't destroy them, but you can outsmart them with your special ability: the SLAM. When upright, charge your power – watch the cuboid glow from white to an intense red – then unleash a devastating ground pound in your chosen direction to stun nearby foes. Master the distinctive rolling movement, carefully manage enemy encounters using the stun mechanic, collect all the scattered coins to activate the escape gate, and make your way to victory. Strategic timing, spatial awareness, and quick reflexes are key to survival!",
-
         "screenshots": [
             "packages/images/news_flash/rollypolly/ss1.png",
             "packages/images/news_flash/rollypolly/ss2.png",
@@ -476,7 +474,6 @@
         "title": "Blox: Stacking Game",
         "subtitle": "A mix of timing and precision. Made in Unity Engine",
         "description": "Blox delivers a skill-driven twist on classic block stacking with realistic swinging physics and precise timing. Each block carries weight and momentum, challenging you to read its arc, release at the perfect moment, and align it cleanly on the tower below. Every placement feels deliberate, and every mistake is earned. Chain perfect drops to build combos, score big, and unlock a growth mechanic that restores block size for skilled play. As your tower rises, soothing color gradients and polished visual effects evolve with your progress. With simple one-tap controls, endless gameplay, physics-based mechanics, and global leaderboards, Blox challenges you to stack higher, play cleaner, and prove your mastery.",
-
         "screenshots": [
             "packages/images/blox/1.png",
             "packages/images/blox/2.png",
@@ -492,6 +489,44 @@
         ],
         "responsibilities": [
             "Designed and implemented core gameplay mechanics focused on timing, precision, and skill-based player mastery.* Implemented physics-based interactions and tuned moment-to-moment game feel in Unity.* Built and balanced core gameplay loops, combo systems, and scoring progression.* Tuned difficulty curves and risk–reward systems through iterative playtesting.* Defined player feedback systems including visual effects, impact timing, and responsiveness.* Developed endless progression systems aimed at retention and replayability.* Integrated meta systems such as monetization, leaderboards, and performance optimization."
+        ]
+    },
+    {
+        "sno": "21",
+        "title": "Dodge",
+        "subtitle": "READY, SET, DODGE!",
+        "description": "Welcome to the ultimate twitch-reflex arcade challenge! The track is endless, the speed is relentless, and your survival depends on a single tap. Are your reflexes fast enough? Drop in and take control of your ball as you hurtle down a blazing-fast, ever-changing procedural track. Tap to instantly switch lanes, dodge brutal obstacles, and snatch up every coin in your path. It starts fast, but the longer you survive, the faster it gets. Blink, and it’s Game Over!",
+        "screenshots": [
+            "packages/images/dodge/1.png",
+            "packages/images/dodge/2.png",
+            "packages/images/dodge/3.png",
+            "packages/images/dodge/4.png",
+            "packages/images/dodge/5.png",
+            "packages/images/dodge/6.png",
+            "packages/images/dodge/7.png",
+            "packages/images/dodge/8.png",
+            "packages/images/dodge/9.png",
+            "packages/images/dodge/10.png",
+            "packages/images/dodge/11.png",
+            "packages/images/dodge/12.png",
+            "packages/images/dodge/13.png",
+            "packages/images/dodge/14.png",
+            "packages/images/dodge/15.png",
+            "packages/images/dodge/16.png",
+            "packages/images/dodge/17.png",
+            "packages/images/dodge/18.png",
+            "packages/images/dodge/19.png",
+            "packages/images/dodge/20.png",
+            "packages/images/dodge/21.png"
+
+        ],
+        "gameLink": "https://play.google.com/store/apps/details?id=com.Web3Task.Dodge",
+        "embedLink": "",
+        "features": [
+            "Simple one-tap controls make the game easy to play and challenging to master.*Arcade feel with neon graphics.*Endless gameplay lets you survive longer with no level limits.*Beautiful and soothing visuals feature smooth color gradients and glowing effects.*Global google play leaderboard let you compete with players around the world.*Premium no-ads version removes ads for a clean and focused experience.*A shop system for unlocking new balls and tracks."
+        ],
+        "responsibilities": [
+            "Designed and implemented core gameplay mechanics focused on timing, precision, and skill-based player mastery.* Implemented responsive controls and tuned moment-to-moment game feel in Unity.* Built and balanced core gameplay loops, combo systems, and scoring progression.*Tuned difficulty curves and risk–reward systems through iterative playtesting.* Defined player feedback systems including visual effects, impact timing, and responsiveness.* Developed endless progression systems aimed at retention and replayability.* Integrated meta systems such as monetization & IAP, leaderboards, and performance optimization."
         ]
     }
 ]
