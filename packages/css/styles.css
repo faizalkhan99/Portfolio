@@ -1492,58 +1492,6 @@ img {
   transform: translateY(-10px);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*==================== PORTFOLIO GRID ====================*/
 
 .portfolio__container {
@@ -1590,6 +1538,7 @@ img {
 
 .portfolio__button {
   align-self: flex-start;
+  align-self: center;
 }
 
 @media screen and (max-width: 568px) {
