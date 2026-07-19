@@ -528,5 +528,51 @@
         "responsibilities": [
             "Designed and implemented core gameplay mechanics focused on timing, precision, and skill-based player mastery.* Implemented responsive controls and tuned moment-to-moment game feel in Unity.* Built and balanced core gameplay loops, combo systems, and scoring progression.*Tuned difficulty curves and risk–reward systems through iterative playtesting.* Defined player feedback systems including visual effects, impact timing, and responsiveness.* Developed endless progression systems aimed at retention and replayability.* Integrated meta systems such as monetization & IAP, leaderboards, and performance optimization."
         ]
+    },
+    {
+        "sno": "22",
+        "title": "Tied Together",
+        "subtitle": "Get Set Ready Your Boat!!!",
+        "description": "Welcome to the ultimate twitch-reflex arcade challenge! The track is endless, the speed is relentless, and your survival depends on you. Are your reflexes fast enough? Drop in and take control of your boat as you hurtle down a blazing-fast river!",
+        "screenshots": [
+            "packages/images/tiedtogether/1.png",
+            "packages/images/tiedtogether/2.png",
+            "packages/images/tiedtogether/3.png",
+            "packages/images/tiedtogether/4.png",
+            "packages/images/tiedtogether/5.png",
+            "packages/images/tiedtogether/6.png"
+
+        ],
+        "gameLink": "https://faizalkhan99.itch.io/tied-together",
+        "embedLink": "",
+        "features": [
+            "Simple mouse controls make the game easy to play and challenging to master.*Arcade feel with new gen graphics.*Endless gameplay lets you survive longer with no level limits.*Beautiful and soothing visuals."
+        ],
+        "responsibilities": [
+            "Designed and implemented core gameplay mechanics focused on timing, precision, and skill-based player mastery.* Implemented responsive controls and tuned moment-to-moment game feel in Unity.* Built and balanced core gameplay loop and scoring progression.*Tuned difficulty curves and risk–reward systems through iterative playtesting.* Defined player feedback systems including visual effects, impact timing, and responsiveness.* Developed endless progression systems aimed at retention and replayability."
+        ]
+    },
+    {
+        "sno": "23",
+        "title": "Lightning Edge",
+        "subtitle": "Can You Survive The Edge?",
+        "description": "Lightning Edge is a love letter to SkyRoads (1993), the DOS classic where the road itself was the enemy. Same rules, new edge: momentum is everything, every surface means something, and one mistake sends you into the void. 30 LEVELS. 10 PLANETS. REAL GRAVITY.Each planet has its own gravity. Floaty worlds give you huge, lazy jump arcs. Heavy worlds barely let you off the ground. The same gap that's trivial on Zeta will kill you on Nyx.",
+        "screenshots": [
+            "packages/images/lightingedge/1.png",
+            "packages/images/lightingedge/2.png",
+            "packages/images/lightingedge/3.png",
+            "packages/images/lightingedge/4.png",
+            "packages/images/lightingedge/5.png",
+            "packages/images/lightingedge/6.png"
+
+        ],
+        "gameLink": "https://onetwistarcade.itch.io/lightning-edge",
+        "embedLink": "",
+        "features": [
+            "Runs in your browser. Keyboard on desktop, touch controls on mobile. No downloads.*Arcade feel with new gen, neon graphics.*30 levels with unique challenges.*Beautiful and soothing visuals feature smooth color and glowing effects."
+        ],
+        "responsibilities": [
+            "Designed core gameplay mechanics focused on timing, precision, and skill-based player mastery.* Designed responsive controls and tuned moment-to-moment game feel.* Balanced core gameplay loop and scoring progression.*Tuned difficulty curves and risk–reward systems through iterative playtesting.* Defined player feedback systems including visual effects, impact timing, and responsiveness.* Developed endless progression systems aimed at retention and replayability."
+        ]
     }
 ]
