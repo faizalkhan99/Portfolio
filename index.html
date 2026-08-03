@@ -15,12 +15,40 @@
 </head>
 
 <body>
+    <div class="accent a1"></div>
+    <div class="accent a2"></div>
+    <div class="accent a3"></div>
+    <div class="accent a4"></div>
+    <div class="accent a5"></div>
+    <div class="accent a6"></div>
+
+    <div class="dot-group dg1"></div>
+    <div class="dot-group dg2"></div>
+    <div class="dot-group dg3"></div>
+    <div class="dot-group dg4"></div>
+
+    <div class="block b1"></div>
+    <div class="block b2"></div>
+    <div class="block b3"></div>
+    <div class="block b4"></div>
+
+    <div class="bg-word w1">FLOW</div>
+    <div class="bg-word w2">PLAY</div>
+    <div class="bg-word w3">SYSTEMS</div>
+
+    <div class="coord c1">AREA_01</div>
+    <div class="coord c2">FLOW</div>
+    <div class="coord c3">PLAYER_START</div>
+    <div class="coord c4">CHECKPOINT</div>
+    <div class="coord c5">NAVMESH</div>
+
     <!--==================== Background Random Images ====================-->
     <img class="image-container" src=""></img>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container ">
             <a href="#" class="nav__logo">Faizal Khan</a>
+
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
@@ -52,10 +80,11 @@
                 <i class="uil uil-times nav__close" id="nav-close"></i>
             </div>
             <div class="nav__btns">
-                <!-- Theme change button -->
-                <!-- <i class="uil uil-moon change-theme" id="theme-button"></i> -->
                 <div class="nav__toggle" id="nav-toggle">
-                    <i class="uil uil-apps"></i>
+                    <i class="uil uil-apps"></i> <!-- Show icon -->
+                </div>
+                <div class="nav__close" id="nav-close">
+                    <i class="uil uil-times"></i> <!-- Close icon -->
                 </div>
             </div>
         </nav>
@@ -312,7 +341,7 @@
                         class="portfolio__img company_logo">
 
                     <div class="portfolio_">
-                        <h3 class="portfolio__title">Technical Project Management</h3>
+                        <h3 class="portfolio__title">Tech Project Mgmt</h3>
                         <p style="text-align: justify;" class="portfolio__description">Coordinating development using
                             Agile workflows, managing tasks, tracking progress, documenting requirements, and ensuring
                             smooth collaboration between design, art, and engineering teams.
@@ -336,6 +365,33 @@
 
             <div class="skills__container container grid">
                 <div>
+                    <!-- Replace the table-based skills list with semantic HTML -->
+                    <!-- <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brain skills__icon" aria-hidden="true"></i>
+                            <h3 class="skills__title">Game Design Skills</h3>
+                            <i class="uil uil-angle-down skills__arrow" aria-hidden="true"></i>
+                        </div>
+                        <ul class="skills__list grid">
+                            <li class="skills__item">
+                                <p class="skills__description"><i class="uil uil-arrow-circle-right skills__bullet"
+                                        aria-hidden="true"></i> Design complete gameplay experiences including core
+                                    loops, player agency, challenge balance, and moment-to-moment decision making.</p>
+                            </li>
+                            <li class="skills__item">
+
+                                <p class="skills__description"><i class="uil uil-arrow-circle-right skills__bullet"
+                                        aria-hidden="true"></i> Authored and maintained comprehensive design
+                                    documentation, including Game Design Documents (GDDs), Level Design Documents
+                                    (LDDs), feature specifications, and gameplay flow documentation.</p>
+                            </li>
+                            <li class="skills__item">
+                                
+                                <p class="skills__description"><i class="uil uil-arrow-circle-right skills__bullet" aria-hidden="true"></i> Define and tune enemy AI behaviors, combat logic, and
+                                    interaction systems to support intended player experience.</p>
+                            </li>
+                        </ul>
+                    </div> -->
                     <!--==================== SKILL-1 ====================-->
                     <div class="skills__content skills__open">
                         <div class="skills__header">
@@ -354,7 +410,7 @@
                                             <tr>
                                                 <td style="vertical-align: top;">
                                                     <i class="uil uil-arrow-circle-right"
-                                                        style="color: var(--first-color);">&nbsp;</i>
+                                                        style="color: var(--accent);">&nbsp;</i>
                                                 </td>
                                                 <td>
                                                     Design complete gameplay experiences including core loops, player
@@ -377,7 +433,7 @@
                                             <tr>
                                                 <td style="vertical-align: top;">
                                                     <i class="uil uil-arrow-circle-right"
-                                                        style="color: var(--first-color)">&nbsp;</i>
+                                                        style="color: var(--accent)">&nbsp;</i>
                                                 </td>
                                                 <td>
                                                     Authored and maintained comprehensive design documentation,
@@ -401,7 +457,7 @@
                                             <tr>
                                                 <td style="vertical-align: top;">
                                                     <i class="uil uil-arrow-circle-right"
-                                                        style="color: var(--first-color)">&nbsp;</i>
+                                                        style="color: var(--accent)">&nbsp;</i>
                                                 </td>
                                                 <td>
                                                     Define and tune enemy AI behaviors, combat logic, and interaction
@@ -424,7 +480,7 @@
                                             <tr>
                                                 <td style="vertical-align: top;">
                                                     <i class="uil uil-arrow-circle-right"
-                                                        style="color: var(--first-color)">&nbsp;</i>
+                                                        style="color: var(--accent)">&nbsp;</i>
                                                 </td>
                                                 <td>
                                                     Created gameplay wireframes, user flows, and system diagrams using
@@ -460,7 +516,7 @@
                                         <table>
                                             <tr>
                                                 <td style="vertical-align: top;"><i class=" uil uil-arrow-circle-right"
-                                                        style="color: var(--first-color);">&nbsp;</i>
+                                                        style="color: var(--accent);">&nbsp;</i>
                                                 </td>
                                                 <td style="content: justify">
                                                     Designed engaging levels using both traditional paper prototyping
@@ -482,7 +538,7 @@
                                             <tr>
                                                 <td style="vertical-align: top;">
                                                     <i class="uil uil-arrow-circle-right"
-                                                        style="color: var(--first-color)">&nbsp;</i>
+                                                        style="color: var(--accent)">&nbsp;</i>
                                                 </td>
                                                 <td>
                                                     Built graybox levels to validate gameplay mechanics, combat
@@ -502,7 +558,7 @@
                                         <table>
                                             <tr>
                                                 <td style="vertical-align: top;"><i class=" uil uil-arrow-circle-right"
-                                                        style="color: var(--first-color);">&nbsp;</i>
+                                                        style="color: var(--accent);">&nbsp;</i>
                                                 </td>
                                                 <td style="content: justify">
                                                     Planned and iterated on player progression, enemy placement,
@@ -524,7 +580,7 @@
                                         <table>
                                             <tr>
                                                 <td style="vertical-align: top;"><i class=" uil uil-arrow-circle-right"
-                                                        style="color: var(--first-color);">&nbsp;</i>
+                                                        style="color: var(--accent);">&nbsp;</i>
                                                 </td>
                                                 <td style="content: justify">
                                                     Conducted iterative playtesting to refine difficulty curves,
@@ -559,7 +615,7 @@
                                             <tr>
                                                 <td style="vertical-align: top;">
                                                     <i class="uil uil-arrow-circle-right"
-                                                        style="color: var(--first-color)">&nbsp;</i>
+                                                        style="color: var(--accent)">&nbsp;</i>
                                                 </td>
                                                 <td>
                                                     Unity Engine
@@ -580,7 +636,7 @@
                                             <tr>
                                                 <td style="vertical-align: top;">
                                                     <i class="uil uil-arrow-circle-right"
-                                                        style="color: var(--first-color)">&nbsp;</i>
+                                                        style="color: var(--accent)">&nbsp;</i>
                                                 </td>
                                                 <td>
                                                     C#
@@ -609,7 +665,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name uil"><i class="uil uil-arrow-circle-right"
-                                            style="color: var(--first-color)"></i>&nbsp;&nbsp;Blender</h3>
+                                            style="color: var(--accent)"></i>&nbsp;&nbsp;Blender</h3>
                                     <!-- <span class="skills__number">40%</span> -->
                                 </div>
                                 <!-- <div class="skills__bar">
@@ -619,7 +675,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name uil"><i class="uil uil-arrow-circle-right"
-                                            style="color: var(--first-color)"></i>&nbsp;&nbsp;Basic knowledge of
+                                            style="color: var(--accent)"></i>&nbsp;&nbsp;Basic knowledge of
                                         Photoshop/Inkscape/Photopea</h3>
                                     <!-- <span class="skills__number">20%</span> -->
                                 </div>
@@ -630,7 +686,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name uil"><i class="uil uil-arrow-circle-right"
-                                            style="color: var(--first-color)"></i>&nbsp;&nbsp;Miro Board</h3>
+                                            style="color: var(--accent)"></i>&nbsp;&nbsp;Miro Board</h3>
                                     <!-- <span class="skills__number">100%</span> -->
                                 </div>
                                 <!-- <div class="skills__bar">
@@ -640,7 +696,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name uil"><i class="uil uil-arrow-circle-right"
-                                            style="color: var(--first-color)"></i>&nbsp;&nbsp;Figma</h3>
+                                            style="color: var(--accent)"></i>&nbsp;&nbsp;Figma</h3>
                                     <!-- <span class="skills__number">100%</span> -->
                                 </div>
                                 <!-- <div class="skills__bar">
@@ -663,7 +719,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name uil"><i class="uil uil-arrow-circle-right"
-                                            style="color: var(--first-color)"></i>&nbsp;&nbsp;MS Office</h3>
+                                            style="color: var(--accent)"></i>&nbsp;&nbsp;MS Office</h3>
                                     <!-- <span class="skills__number">80%</span> -->
                                 </div>
                                 <!-- <div class="skills__bar">
@@ -673,7 +729,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name uil"><i class="uil uil-arrow-circle-right"
-                                            style="color: var(--first-color)"></i>&nbsp;&nbsp;Google Suite</h3>
+                                            style="color: var(--accent)"></i>&nbsp;&nbsp;Google Suite</h3>
                                     <!-- <span class="skills__number">60%</span> -->
                                 </div>
                                 <!-- <div class="skills__bar">
@@ -1272,8 +1328,8 @@
         <!--==================== CERTIFICATIONS ====================-->
         <section class="portfolio section" id="portfolio">
 
-            <h2 class="section__title">CERTIFICATIONS</h2>
-            <span class="section__subtitle">Certificates Under My Belt</span>
+            <h2 class="section__title">CERTIFICATIONS & COMPETITIONS</h2>
+            <span class="section__subtitle">What I learned and Achieved</span>
 
             <div class="portfolio__container container">
                 <!--==================== Cert. 1 ====================-->
@@ -1294,37 +1350,26 @@
                         </a>
                     </div>
                 </div>
-            </div>
-
-        </section>
-        <!--==================== Competitions ====================-->
-        <section class="portfolio section" id="competitions">
-
-            <h2 class="section__title">COMPETITIONS</h2>
-            <span class="section__subtitle">We're goin' competitive baby</span>
-
-            <div class="portfolio__container container">
-                <!--==================== Cert. 1 ====================-->
-                <div class="portfolio__content">
-                    <img src="./packages/docs/certificates/techcon.jpg" alt="" class="portfolio__img">
-                    <div class="portfolio_">
-                        <h3 class="portfolio__title">Project Competition - VIPS</h3>
-                        <p style="text-align: justify;" class="portfolio__description">A college level competition
-                            where me and my teammate presented "Rubber Bang" as an entry that we had to present in
-                            front of everyone and we WON. A certificate and a cash prize of INR 15000/-</p>
-                        <a href="https://www.instagram.com/p/CqKxUOFS-Ir/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA=="
-                            target="_blank" class="button button--flex button--small portfolio__button">
-                            More Info.
-                            <i class="uil uil-share button__icon"></i>
-                        </a>
+                <div class="portfolio__container container">
+                    <!--==================== Cert. 1 ====================-->
+                    <div class="portfolio__content">
+                        <img src="./packages/docs/certificates/techcon.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Project Competition - VIPS</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A college level competition
+                                where me and my teammate presented "Rubber Bang" as an entry that we had to present in
+                                front of everyone and we WON. A certificate and a cash prize of INR 15000/-</p>
+                            <a href="https://www.instagram.com/p/CqKxUOFS-Ir/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA=="
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                More Info.
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-
-
-
             </div>
-
         </section>
+
         <!--==================== TESTIMONIALS ====================-->
         <section class="testimonial section">
 

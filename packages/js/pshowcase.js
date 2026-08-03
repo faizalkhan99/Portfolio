@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const ul = document.createElement('ul');
                     rawFeatures.forEach(feature => {
                         const li = document.createElement('li');
-                        li.innerHTML = `<i class="uil uil-arrow-circle-right" style="color: var(--first-color);"></i>&nbsp;${feature.trim()}`;
+                        li.innerHTML = `<i class="uil uil-arrow-circle-right" style="color: var(--accent);"></i>&nbsp;${feature.trim()}`;
                         ul.appendChild(li);
                     });
 
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const ul = document.createElement('ul');
                     rawResponsibilities.forEach(res => {
                         const li = document.createElement('li');
-                        li.innerHTML = `<i class="uil uil-arrow-circle-right" style="color: var(--first-color);"></i>&nbsp;${res.trim()}`;
+                        li.innerHTML = `<i class="uil uil-arrow-circle-right" style="color: var(--accent);"></i>&nbsp;${res.trim()}`;
                         ul.appendChild(li);
                     });
 
